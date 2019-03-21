@@ -7,24 +7,46 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class RegistViewController: UIViewController {
+    
+    private let disposeBag = DisposeBag()
 
+    @IBOutlet private weak var baseScrollView: UIScrollView!
+    @IBOutlet private weak var registButton: UIButton!
+    @IBOutlet private weak var registButtonBottom: NSLayoutConstraint!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        configureObserver()
+        
+        registButton.rx.tap.subscribe(onNext: { [weak self] in
+            self?.registNext()
+        }).disposed(by: disposeBag)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func registNext() {
+        
     }
-    */
+}
 
+// MARK: Notification
+
+extension RegistViewController {
+    private func configureObserver() {
+        let notificationCenter = NotificationCenter.default
+        notificationCenter.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
+    }
+    
+    @objc private func keyboardWillShow(notification: Notification) {
+        guard let keyboardHeight = notification.keyboardFrameEnd?.height else { return }
+        print(keyboardHeight)
+    }
+    
+    @objc private func keyboardWillHide(notification: Notification) {
+    }
 }
