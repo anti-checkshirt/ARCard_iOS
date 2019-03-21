@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2925A0CC08F0D7B69640A41C /* Pods_ARCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */; };
+		7C5C1D28047A031159EC81F5 /* Pods_ARCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC09F28BDA6B9A354F9AB33 /* Pods_ARCard.framework */; };
 		B76F90432243C4710064A4D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90422243C4710064A4D5 /* AppDelegate.swift */; };
 		B76F90452243C4710064A4D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90442243C4710064A4D5 /* ViewController.swift */; };
 		B76F90482243C4710064A4D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F90462243C4710064A4D5 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		B76F904D2243C4730064A4D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F904B2243C4730064A4D5 /* LaunchScreen.storyboard */; };
 		B76F90582243C4730064A4D5 /* ARCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90572243C4730064A4D5 /* ARCardTests.swift */; };
 		B76F90632243C4730064A4D5 /* ARCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90622243C4730064A4D5 /* ARCardUITests.swift */; };
+		DE071C12F39343ABEDC67A2E /* Pods_ARCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38F52266EE3F6874D8739C53 /* Pods-ARCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardTests.debug.xcconfig"; path = "Target Support Files/Pods-ARCardTests/Pods-ARCardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B486A6A3375E79EBA356F10 /* Pods-ARCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardUITests.debug.xcconfig"; path = "Target Support Files/Pods-ARCardUITests/Pods-ARCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DC09F28BDA6B9A354F9AB33 /* Pods_ARCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76F903F2243C4710064A4D5 /* ARCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76F90422243C4710064A4D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B76F90442243C4710064A4D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		B76F905E2243C4730064A4D5 /* ARCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76F90622243C4730064A4D5 /* ARCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardUITests.swift; sourceTree = "<group>"; };
 		B76F90642243C4730064A4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardUITests.release.xcconfig"; path = "Target Support Files/Pods-ARCardUITests/Pods-ARCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardTests.release.xcconfig"; path = "Target Support Files/Pods-ARCardTests/Pods-ARCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4DCBFAA0161D573D5EBC66E /* Pods-ARCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCard.debug.xcconfig"; path = "Target Support Files/Pods-ARCard/Pods-ARCard.debug.xcconfig"; sourceTree = "<group>"; };
+		ED4A20B1260DE092CC6338F3 /* Pods-ARCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCard.release.xcconfig"; path = "Target Support Files/Pods-ARCard/Pods-ARCard.release.xcconfig"; sourceTree = "<group>"; };
+		FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5C1D28047A031159EC81F5 /* Pods_ARCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE071C12F39343ABEDC67A2E /* Pods_ARCardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2925A0CC08F0D7B69640A41C /* Pods_ARCardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A08D708B47628FEF8FBCCC50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DC09F28BDA6B9A354F9AB33 /* Pods_ARCard.framework */,
+				FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */,
+				C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B76F90362243C4710064A4D5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				B76F90562243C4730064A4D5 /* ARCardTests */,
 				B76F90612243C4730064A4D5 /* ARCardUITests */,
 				B76F90402243C4710064A4D5 /* Products */,
+				D0F448F401AB0026C718AEC8 /* Pods */,
+				A08D708B47628FEF8FBCCC50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +152,20 @@
 			path = ARCardUITests;
 			sourceTree = "<group>";
 		};
+		D0F448F401AB0026C718AEC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4DCBFAA0161D573D5EBC66E /* Pods-ARCard.debug.xcconfig */,
+				ED4A20B1260DE092CC6338F3 /* Pods-ARCard.release.xcconfig */,
+				38F52266EE3F6874D8739C53 /* Pods-ARCardTests.debug.xcconfig */,
+				C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */,
+				7B486A6A3375E79EBA356F10 /* Pods-ARCardUITests.debug.xcconfig */,
+				BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B76F90672243C4730064A4D5 /* Build configuration list for PBXNativeTarget "ARCard" */;
 			buildPhases = (
+				EC6F62F0D43616F979453C56 /* [CP] Check Pods Manifest.lock */,
 				B76F903B2243C4710064A4D5 /* Sources */,
 				B76F903C2243C4710064A4D5 /* Frameworks */,
 				B76F903D2243C4710064A4D5 /* Resources */,
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B76F906A2243C4730064A4D5 /* Build configuration list for PBXNativeTarget "ARCardTests" */;
 			buildPhases = (
+				0BF40522F4EB4F046468192B /* [CP] Check Pods Manifest.lock */,
 				B76F904F2243C4730064A4D5 /* Sources */,
 				B76F90502243C4730064A4D5 /* Frameworks */,
 				B76F90512243C4730064A4D5 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B76F906D2243C4730064A4D5 /* Build configuration list for PBXNativeTarget "ARCardUITests" */;
 			buildPhases = (
+				B5F8A1208273745F836C3649 /* [CP] Check Pods Manifest.lock */,
 				B76F905A2243C4730064A4D5 /* Sources */,
 				B76F905B2243C4730064A4D5 /* Frameworks */,
 				B76F905C2243C4730064A4D5 /* Resources */,
@@ -250,6 +294,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF40522F4EB4F046468192B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARCardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F8A1208273745F836C3649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARCardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6F62F0D43616F979453C56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B76F903B2243C4710064A4D5 /* Sources */ = {
@@ -430,6 +543,7 @@
 		};
 		B76F90682243C4730064A4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DCBFAA0161D573D5EBC66E /* Pods-ARCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +561,7 @@
 		};
 		B76F90692243C4730064A4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4A20B1260DE092CC6338F3 /* Pods-ARCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +579,7 @@
 		};
 		B76F906B2243C4730064A4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F52266EE3F6874D8739C53 /* Pods-ARCardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +600,7 @@
 		};
 		B76F906C2243C4730064A4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +621,7 @@
 		};
 		B76F906E2243C4730064A4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B486A6A3375E79EBA356F10 /* Pods-ARCardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +641,7 @@
 		};
 		B76F906F2243C4730064A4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
