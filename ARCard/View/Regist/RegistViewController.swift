@@ -13,7 +13,11 @@ import RxCocoa
 class RegistViewController: UIViewController {
     
     private let disposeBag = DisposeBag()
-
+    private lazy var viewModel = RegistViewModel(
+        name: nameTextField.rx.text.asObservable(),
+        organizer: organizerTextField.rx.text.asObservable(),
+        model: RegistModel())
+    
     @IBOutlet private weak var baseScrollView: UIScrollView!
     @IBOutlet private weak var validationLabel: UILabel!
     @IBOutlet private weak var backButton1: UIButton!
@@ -29,7 +33,7 @@ class RegistViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         configureObserver()
         
         registButton.rx.tap.subscribe(onNext: { [weak self] in
@@ -41,11 +45,26 @@ class RegistViewController: UIViewController {
                 self?.nameTextField.becomeFirstResponder()
             })
         }).disposed(by: disposeBag)
+        
         backButton2.rx.tap.subscribe(onNext: { [weak self] in
             self?.moveScroll(to: .left, completion: {
                 self?.sexTextField.becomeFirstResponder()
             })
         }).disposed(by: disposeBag)
+        
+        viewModel.firstbValidationText
+        .bind(to: validationLabel.rx.text)
+        .disposed(by: disposeBag)
+        
+        viewModel.firstLoadColor
+        .bind(to: validationLabelColor)
+        .disposed(by: disposeBag)
+    }
+    
+    private var validationLabelColor: Binder<UIColor> {
+        return Binder(self) { me, color in
+            me.validationLabel.textColor = color
+        }
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -53,7 +72,16 @@ class RegistViewController: UIViewController {
     }
     
     private func registNext() {
-        
+        switch baseScrollView.currentPage {
+        case 1:
+            print("1")
+        case 2:
+            print("1")
+        case 3:
+            print("1")
+        default:
+            break
+        }
     }
     
     private enum ScrollDirection {
