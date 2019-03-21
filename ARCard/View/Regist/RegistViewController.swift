@@ -16,6 +16,8 @@ class RegistViewController: UIViewController {
 
     @IBOutlet private weak var baseScrollView: UIScrollView!
     @IBOutlet private weak var validationLabel: UILabel!
+    @IBOutlet private weak var backButton1: UIButton!
+    @IBOutlet private weak var backButton2: UIButton!
     @IBOutlet private weak var nameTextField: UITextField!
     @IBOutlet private weak var organizerTextField: UITextField!
     @IBOutlet private weak var sexTextField: UITextField!
@@ -33,10 +35,69 @@ class RegistViewController: UIViewController {
         registButton.rx.tap.subscribe(onNext: { [weak self] in
             self?.registNext()
         }).disposed(by: disposeBag)
+        
+        backButton1.rx.tap.subscribe(onNext: { [weak self] in
+            self?.moveScroll(to: .left, completion: {
+                self?.nameTextField.becomeFirstResponder()
+            })
+        }).disposed(by: disposeBag)
+        backButton2.rx.tap.subscribe(onNext: { [weak self] in
+            self?.moveScroll(to: .left, completion: {
+                self?.sexTextField.becomeFirstResponder()
+            })
+        }).disposed(by: disposeBag)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
     }
     
     private func registNext() {
         
+    }
+    
+    private enum ScrollDirection {
+        case left
+        case right
+    }
+    
+    private func moveScroll(to direction: ScrollDirection, completion: @escaping () -> Void) {
+        UIView.animate(withDuration: 0.6, delay: 0, options: .curveEaseInOut, animations: {
+            switch direction {
+            case .left:
+                self.baseScrollView.contentOffset.x -= self.view.frame.width
+            case .right:
+                self.baseScrollView.contentOffset.x += self.view.frame.width
+            }
+        }) { _ in
+            completion()
+        }
+    }
+}
+
+extension RegistViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        switch textField {
+        case nameTextField:
+            organizerTextField.becomeFirstResponder()
+        case organizerTextField:
+            moveScroll(to: .right) {
+                self.sexTextField.becomeFirstResponder()
+            }
+        case sexTextField:
+            ageTextField.becomeFirstResponder()
+        case ageTextField:
+            moveScroll(to: .right) {
+                self.emailTextField.becomeFirstResponder()
+            }
+        case emailTextField:
+            passwordTextField.becomeFirstResponder()
+        case passwordTextField:
+            passwordTextField.resignFirstResponder()
+        default:
+            return false
+        }
+        return true
     }
 }
 
@@ -51,9 +112,10 @@ extension RegistViewController {
     
     @objc private func keyboardWillShow(notification: Notification) {
         guard let keyboardHeight = notification.keyboardFrameEnd?.height else { return }
-        print(keyboardHeight)
+        registButtonBottom.constant = keyboardHeight
     }
     
     @objc private func keyboardWillHide(notification: Notification) {
+        registButtonBottom.constant = 0
     }
 }

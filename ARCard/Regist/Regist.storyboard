@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EVB-dF-byZ">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EVB-dF-byZ">
                                 <rect key="frame" x="0.0" y="74" width="375" height="168"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Kb-Se-bGm">
@@ -90,7 +90,6 @@
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="16" id="avO-TO-2I1"/>
                                                                         </constraints>
-                                                                        <state key="normal" title="Button"/>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
@@ -166,7 +165,8 @@
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="16" id="Iqf-ac-Hnm"/>
                                                                         </constraints>
-                                                                        <state key="normal" title="Button"/>
+                                                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
+                                                                        <state key="normal" title="一つ戻る"/>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
@@ -205,6 +205,9 @@
                                                                                 <nil key="textColor"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                                 <textInputTraits key="textInputTraits"/>
+                                                                                <connections>
+                                                                                    <outlet property="delegate" destination="5gY-0U-lVZ" id="eph-dV-7jy"/>
+                                                                                </connections>
                                                                             </textField>
                                                                         </subviews>
                                                                     </stackView>
@@ -228,6 +231,9 @@
                                                                                 <nil key="textColor"/>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                                 <textInputTraits key="textInputTraits"/>
+                                                                                <connections>
+                                                                                    <outlet property="delegate" destination="5gY-0U-lVZ" id="mWp-9N-yjW"/>
+                                                                                </connections>
                                                                             </textField>
                                                                         </subviews>
                                                                     </stackView>
@@ -236,7 +242,8 @@
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="16" id="Ibo-4p-kmV"/>
                                                                         </constraints>
-                                                                        <state key="normal" title="Button"/>
+                                                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
+                                                                        <state key="normal" title="一つ戻る"/>
                                                                     </button>
                                                                 </subviews>
                                                             </stackView>
@@ -269,6 +276,9 @@
                                     <constraint firstItem="9Kb-Se-bGm" firstAttribute="width" secondItem="EVB-dF-byZ" secondAttribute="width" multiplier="3" id="fuf-ba-yZ0"/>
                                     <constraint firstItem="9Kb-Se-bGm" firstAttribute="top" secondItem="EVB-dF-byZ" secondAttribute="top" id="nje-di-MSs"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="5gY-0U-lVZ" id="0D8-CC-uXS"/>
+                                </connections>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tij-9l-daS">
                                 <rect key="frame" x="16" y="258" width="343" height="20.333333333333314"/>
@@ -313,6 +323,8 @@
                     <navigationItem key="navigationItem" id="u39-75-N3f"/>
                     <connections>
                         <outlet property="ageTextField" destination="I2S-PQ-wlQ" id="Wym-U2-FXS"/>
+                        <outlet property="backButton1" destination="650-gO-cxd" id="wq0-eK-U7g"/>
+                        <outlet property="backButton2" destination="6iU-HD-MjS" id="7Q9-Vs-TdS"/>
                         <outlet property="baseScrollView" destination="EVB-dF-byZ" id="Yme-0q-PAo"/>
                         <outlet property="emailTextField" destination="ZhA-Vh-KL6" id="cNt-e2-t49"/>
                         <outlet property="nameTextField" destination="03h-UQ-wjM" id="dq4-mH-1BQ"/>
