@@ -15,6 +15,13 @@ class RegistViewController: UIViewController {
     private let disposeBag = DisposeBag()
 
     @IBOutlet private weak var baseScrollView: UIScrollView!
+    @IBOutlet private weak var validationLabel: UILabel!
+    @IBOutlet private weak var nameTextField: UITextField!
+    @IBOutlet private weak var organizerTextField: UITextField!
+    @IBOutlet private weak var sexTextField: UITextField!
+    @IBOutlet private weak var ageTextField: UITextField!
+    @IBOutlet private weak var emailTextField: UITextField!
+    @IBOutlet private weak var passwordTextField: UITextField!
     @IBOutlet private weak var registButton: UIButton!
     @IBOutlet private weak var registButtonBottom: NSLayoutConstraint!
     
