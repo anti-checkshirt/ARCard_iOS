@@ -16,6 +16,18 @@
 		B76F904D2243C4730064A4D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F904B2243C4730064A4D5 /* LaunchScreen.storyboard */; };
 		B76F90582243C4730064A4D5 /* ARCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90572243C4730064A4D5 /* ARCardTests.swift */; };
 		B76F90632243C4730064A4D5 /* ARCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90622243C4730064A4D5 /* ARCardUITests.swift */; };
+		B76F907C2243C7920064A4D5 /* Device.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90702243C7910064A4D5 /* Device.framework */; };
+		B76F907D2243C7920064A4D5 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90712243C7910064A4D5 /* PKHUD.framework */; };
+		B76F907E2243C7920064A4D5 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90722243C7910064A4D5 /* SnapKit.framework */; };
+		B76F907F2243C7920064A4D5 /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90732243C7910064A4D5 /* SwiftyUserDefaults.framework */; };
+		B76F90802243C7920064A4D5 /* Validator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90742243C7910064A4D5 /* Validator.framework */; };
+		B76F90812243C7920064A4D5 /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90752243C7920064A4D5 /* KeychainAccess.framework */; };
+		B76F90822243C7920064A4D5 /* ActiveLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90762243C7920064A4D5 /* ActiveLabel.framework */; };
+		B76F90832243C7920064A4D5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90772243C7920064A4D5 /* Alamofire.framework */; };
+		B76F90842243C7920064A4D5 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90782243C7920064A4D5 /* RxCocoa.framework */; };
+		B76F90852243C7920064A4D5 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90792243C7920064A4D5 /* RxSwift.framework */; };
+		B76F90862243C7920064A4D5 /* FontAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F907A2243C7920064A4D5 /* FontAwesome.framework */; };
+		B76F90872243C7920064A4D5 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F907B2243C7920064A4D5 /* Nuke.framework */; };
 		DE071C12F39343ABEDC67A2E /* Pods_ARCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +65,18 @@
 		B76F905E2243C4730064A4D5 /* ARCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76F90622243C4730064A4D5 /* ARCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardUITests.swift; sourceTree = "<group>"; };
 		B76F90642243C4730064A4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76F90702243C7910064A4D5 /* Device.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Device.framework; path = Carthage/Build/iOS/Device.framework; sourceTree = "<group>"; };
+		B76F90712243C7910064A4D5 /* PKHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PKHUD.framework; path = Carthage/Build/iOS/PKHUD.framework; sourceTree = "<group>"; };
+		B76F90722243C7910064A4D5 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		B76F90732243C7910064A4D5 /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = Carthage/Build/iOS/SwiftyUserDefaults.framework; sourceTree = "<group>"; };
+		B76F90742243C7910064A4D5 /* Validator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Validator.framework; path = Carthage/Build/iOS/Validator.framework; sourceTree = "<group>"; };
+		B76F90752243C7920064A4D5 /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
+		B76F90762243C7920064A4D5 /* ActiveLabel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActiveLabel.framework; path = Carthage/Build/iOS/ActiveLabel.framework; sourceTree = "<group>"; };
+		B76F90772243C7920064A4D5 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B76F90782243C7920064A4D5 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		B76F90792243C7920064A4D5 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		B76F907A2243C7920064A4D5 /* FontAwesome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesome.framework; path = Carthage/Build/iOS/FontAwesome.framework; sourceTree = "<group>"; };
+		B76F907B2243C7920064A4D5 /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
 		BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardUITests.release.xcconfig"; path = "Target Support Files/Pods-ARCardUITests/Pods-ARCardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardTests.release.xcconfig"; path = "Target Support Files/Pods-ARCardTests/Pods-ARCardTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +90,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76F907C2243C7920064A4D5 /* Device.framework in Frameworks */,
+				B76F907D2243C7920064A4D5 /* PKHUD.framework in Frameworks */,
+				B76F907E2243C7920064A4D5 /* SnapKit.framework in Frameworks */,
+				B76F907F2243C7920064A4D5 /* SwiftyUserDefaults.framework in Frameworks */,
+				B76F90802243C7920064A4D5 /* Validator.framework in Frameworks */,
+				B76F90812243C7920064A4D5 /* KeychainAccess.framework in Frameworks */,
+				B76F90822243C7920064A4D5 /* ActiveLabel.framework in Frameworks */,
+				B76F90832243C7920064A4D5 /* Alamofire.framework in Frameworks */,
+				B76F90842243C7920064A4D5 /* RxCocoa.framework in Frameworks */,
+				B76F90852243C7920064A4D5 /* RxSwift.framework in Frameworks */,
+				B76F90862243C7920064A4D5 /* FontAwesome.framework in Frameworks */,
+				B76F90872243C7920064A4D5 /* Nuke.framework in Frameworks */,
 				7C5C1D28047A031159EC81F5 /* Pods_ARCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +128,18 @@
 		A08D708B47628FEF8FBCCC50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B76F90762243C7920064A4D5 /* ActiveLabel.framework */,
+				B76F90772243C7920064A4D5 /* Alamofire.framework */,
+				B76F90702243C7910064A4D5 /* Device.framework */,
+				B76F907A2243C7920064A4D5 /* FontAwesome.framework */,
+				B76F90752243C7920064A4D5 /* KeychainAccess.framework */,
+				B76F907B2243C7920064A4D5 /* Nuke.framework */,
+				B76F90712243C7910064A4D5 /* PKHUD.framework */,
+				B76F90782243C7920064A4D5 /* RxCocoa.framework */,
+				B76F90792243C7920064A4D5 /* RxSwift.framework */,
+				B76F90722243C7910064A4D5 /* SnapKit.framework */,
+				B76F90732243C7910064A4D5 /* SwiftyUserDefaults.framework */,
+				B76F90742243C7910064A4D5 /* Validator.framework */,
 				8DC09F28BDA6B9A354F9AB33 /* Pods_ARCard.framework */,
 				FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */,
 				C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */,
@@ -162,7 +210,6 @@
 				7B486A6A3375E79EBA356F10 /* Pods-ARCardUITests.debug.xcconfig */,
 				BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -177,6 +224,7 @@
 				B76F903B2243C4710064A4D5 /* Sources */,
 				B76F903C2243C4710064A4D5 /* Frameworks */,
 				B76F903D2243C4710064A4D5 /* Resources */,
+				B76F90882243C7990064A4D5 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -339,6 +387,36 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		B76F90882243C7990064A4D5 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ActiveLabel.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Device.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FontAwesome.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KeychainAccess.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nuke.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PKHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyUserDefaults.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Validator.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 		EC6F62F0D43616F979453C56 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -547,6 +625,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJMPLD4D4X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ARCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -565,6 +648,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJMPLD4D4X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ARCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
