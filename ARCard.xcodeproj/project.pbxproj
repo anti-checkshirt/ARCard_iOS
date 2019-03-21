@@ -28,6 +28,7 @@
 		B76F90852243C7920064A4D5 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F90792243C7920064A4D5 /* RxSwift.framework */; };
 		B76F90862243C7920064A4D5 /* FontAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F907A2243C7920064A4D5 /* FontAwesome.framework */; };
 		B76F90872243C7920064A4D5 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76F907B2243C7920064A4D5 /* Nuke.framework */; };
+		B76F908C2243C8C60064A4D5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B76F908B2243C8C60064A4D5 /* Settings.bundle */; };
 		DE071C12F39343ABEDC67A2E /* Pods_ARCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		B76F90792243C7920064A4D5 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		B76F907A2243C7920064A4D5 /* FontAwesome.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FontAwesome.framework; path = Carthage/Build/iOS/FontAwesome.framework; sourceTree = "<group>"; };
 		B76F907B2243C7920064A4D5 /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
+		B76F908B2243C8C60064A4D5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardUITests.release.xcconfig"; path = "Target Support Files/Pods-ARCardUITests/Pods-ARCardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardTests.release.xcconfig"; path = "Target Support Files/Pods-ARCardTests/Pods-ARCardTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				B76F90492243C4730064A4D5 /* Assets.xcassets */,
 				B76F904B2243C4730064A4D5 /* LaunchScreen.storyboard */,
 				B76F904E2243C4730064A4D5 /* Info.plist */,
+				B76F908B2243C8C60064A4D5 /* Settings.bundle */,
 			);
 			path = ARCard;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76F908C2243C8C60064A4D5 /* Settings.bundle in Resources */,
 				B76F904D2243C4730064A4D5 /* LaunchScreen.storyboard in Resources */,
 				B76F904A2243C4730064A4D5 /* Assets.xcassets in Resources */,
 				B76F90482243C4710064A4D5 /* Main.storyboard in Resources */,

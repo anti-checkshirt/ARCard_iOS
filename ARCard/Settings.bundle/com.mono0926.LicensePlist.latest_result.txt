@@ -1,0 +1,35 @@
+name: LicensePlist, nameSpecified: 
+body: MIT License
+
+Copyrig…
+version: 2.1.0
+
+name: SwiftLint, nameSpecified: 
+body: The MIT License (MIT…
+version: 0.30.1
+
+name: ActiveLabel.swift, nameSpecified: , owner: optonaut, version: 1.0.1
+
+name: Alamofire, nameSpecified: , owner: Alamofire, version: 4.8.1
+
+name: Device, nameSpecified: , owner: Ekhoo, version: 3.1.2
+
+name: FontAwesome.swift, nameSpecified: , owner: thii, version: 1.6.0
+
+name: KeychainAccess, nameSpecified: , owner: kishikawakatsumi, version: v3.1.2
+
+name: Nuke, nameSpecified: , owner: kean, version: 7.5.2
+
+name: PKHUD, nameSpecified: , owner: pkluz, version: 5.2.1
+
+name: RxSwift, nameSpecified: , owner: ReactiveX, version: 4.4.2
+
+name: SnapKit, nameSpecified: , owner: SnapKit, version: 4.2.0
+
+name: SwiftyUserDefaults, nameSpecified: , owner: radex, version: 3.0.1
+
+name: Validator, nameSpecified: , owner: adamwaite, version: v3.1.1
+
+add-version-numbers: false
+
+LicensePlist Version: 1.8.3
