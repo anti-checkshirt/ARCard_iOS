@@ -174,8 +174,8 @@
 		B76F90412243C4710064A4D5 /* ARCard */ = {
 			isa = PBXGroup;
 			children = (
+				B76F908E2243C9610064A4D5 /* App */,
 				B76F908D2243C9370064A4D5 /* Resources */,
-				B76F90422243C4710064A4D5 /* AppDelegate.swift */,
 				B76F904E2243C4730064A4D5 /* Info.plist */,
 				B76F90462243C4710064A4D5 /* Main.storyboard */,
 				B76F908B2243C8C60064A4D5 /* Settings.bundle */,
@@ -208,8 +208,15 @@
 				B76F90492243C4730064A4D5 /* Assets.xcassets */,
 				B76F904B2243C4730064A4D5 /* LaunchScreen.storyboard */,
 			);
-			name = Resources;
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B76F908E2243C9610064A4D5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B76F90422243C4710064A4D5 /* AppDelegate.swift */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 		D0F448F401AB0026C718AEC8 /* Pods */ = {
