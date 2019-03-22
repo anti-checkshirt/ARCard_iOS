@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class SettingTableViewController: UITableViewController {
     
@@ -40,9 +41,11 @@ class SettingTableViewController: UITableViewController {
         case (1, 3):
             print("アプリの使い方")
         case (2, 0):
-            print("利用規約")
+            let target = SFSafariViewController(url: URL.service)
+            self.present(target, animated: true)
         case (2, 1):
-            print("プライバシーポリシー")
+            let target = SFSafariViewController(url: URL.privacy)
+            self.present(target, animated: true)
         default:
             break
         }
