@@ -44,6 +44,7 @@
 		B76F90BD2244AFAF0064A4D5 /* ProfileEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F90BC2244AFAF0064A4D5 /* ProfileEdit.storyboard */; };
 		B76F90BF2244B1FD0064A4D5 /* UIView+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90BE2244B1FD0064A4D5 /* UIView+ARCard.swift */; };
 		B76F90C12244B29C0064A4D5 /* UIImageView+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90C02244B29C0064A4D5 /* UIImageView+ARCard.swift */; };
+		B76F90C52244C1390064A4D5 /* ProfileDescription.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F90C42244C1390064A4D5 /* ProfileDescription.storyboard */; };
 		DE071C12F39343ABEDC67A2E /* Pods_ARCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +110,7 @@
 		B76F90BC2244AFAF0064A4D5 /* ProfileEdit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileEdit.storyboard; sourceTree = "<group>"; };
 		B76F90BE2244B1FD0064A4D5 /* UIView+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ARCard.swift"; sourceTree = "<group>"; };
 		B76F90C02244B29C0064A4D5 /* UIImageView+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+ARCard.swift"; sourceTree = "<group>"; };
+		B76F90C42244C1390064A4D5 /* ProfileDescription.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileDescription.storyboard; sourceTree = "<group>"; };
 		BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardUITests.release.xcconfig"; path = "Target Support Files/Pods-ARCardUITests/Pods-ARCardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardTests.release.xcconfig"; path = "Target Support Files/Pods-ARCardTests/Pods-ARCardTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -208,7 +210,6 @@
 				B76F90B22244AACE0064A4D5 /* Common */,
 				B76F909B2243DA4D0064A4D5 /* Extension */,
 				B76F908D2243C9370064A4D5 /* Resources */,
-				B76F90972243D4180064A4D5 /* Storyboard */,
 				B76F908F2243CA080064A4D5 /* View */,
 				B76F904E2243C4730064A4D5 /* Info.plist */,
 				B76F90462243C4710064A4D5 /* Main.storyboard */,
@@ -266,27 +267,10 @@
 		B76F90902243CA0F0064A4D5 /* Regist */ = {
 			isa = PBXGroup;
 			children = (
+				B76F90992243D42B0064A4D5 /* Regist.storyboard */,
 				B76F90A02243F5B30064A4D5 /* RegistModel.swift */,
 				B76F90912243CA310064A4D5 /* RegistViewController.swift */,
 				B76F90A22243F5BC0064A4D5 /* RegistViewModel.swift */,
-			);
-			path = Regist;
-			sourceTree = "<group>";
-		};
-		B76F90972243D4180064A4D5 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				B76F90A422449FC30064A4D5 /* AR */,
-				B76F90B62244AE990064A4D5 /* Account */,
-				B76F90982243D4210064A4D5 /* Regist */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		B76F90982243D4210064A4D5 /* Regist */ = {
-			isa = PBXGroup;
-			children = (
-				B76F90992243D42B0064A4D5 /* Regist.storyboard */,
 			);
 			path = Regist;
 			sourceTree = "<group>";
@@ -302,34 +286,20 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		B76F90A422449FC30064A4D5 /* AR */ = {
-			isa = PBXGroup;
-			children = (
-				B76F90A622449FD00064A4D5 /* AR.storyboard */,
-			);
-			path = AR;
-			sourceTree = "<group>";
-		};
 		B76F90A522449FC80064A4D5 /* AR */ = {
 			isa = PBXGroup;
 			children = (
+				B76F90A622449FD00064A4D5 /* AR.storyboard */,
 				B76F90A82244A0010064A4D5 /* ARViewController.swift */,
 			);
 			path = AR;
-			sourceTree = "<group>";
-		};
-		B76F90AA2244A1400064A4D5 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				B76F90AB2244A14C0064A4D5 /* Setting.storyboard */,
-			);
-			path = Setting;
 			sourceTree = "<group>";
 		};
 		B76F90AD2244A3CE0064A4D5 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
 				B76F90B02244A4D70064A4D5 /* SettingTableViewController.swift */,
+				B76F90AB2244A14C0064A4D5 /* Setting.storyboard */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -345,17 +315,9 @@
 		B76F90B52244AE860064A4D5 /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				B76F90C32244C1290064A4D5 /* ProfileDescription */,
 				B76F90B82244AEBD0064A4D5 /* ProfileEdit */,
 				B76F90AD2244A3CE0064A4D5 /* Setting */,
-			);
-			path = Account;
-			sourceTree = "<group>";
-		};
-		B76F90B62244AE990064A4D5 /* Account */ = {
-			isa = PBXGroup;
-			children = (
-				B76F90BB2244AFA40064A4D5 /* ProfileEdit */,
-				B76F90AA2244A1400064A4D5 /* Setting */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -363,17 +325,18 @@
 		B76F90B82244AEBD0064A4D5 /* ProfileEdit */ = {
 			isa = PBXGroup;
 			children = (
+				B76F90BC2244AFAF0064A4D5 /* ProfileEdit.storyboard */,
 				B76F90B92244AF830064A4D5 /* ProfileEditViewController.swift */,
 			);
 			path = ProfileEdit;
 			sourceTree = "<group>";
 		};
-		B76F90BB2244AFA40064A4D5 /* ProfileEdit */ = {
+		B76F90C32244C1290064A4D5 /* ProfileDescription */ = {
 			isa = PBXGroup;
 			children = (
-				B76F90BC2244AFAF0064A4D5 /* ProfileEdit.storyboard */,
+				B76F90C42244C1390064A4D5 /* ProfileDescription.storyboard */,
 			);
-			path = ProfileEdit;
+			name = ProfileDescription;
 			sourceTree = "<group>";
 		};
 		D0F448F401AB0026C718AEC8 /* Pods */ = {
@@ -502,6 +465,7 @@
 				B76F908C2243C8C60064A4D5 /* Settings.bundle in Resources */,
 				B76F909A2243D42B0064A4D5 /* Regist.storyboard in Resources */,
 				B76F90AC2244A14C0064A4D5 /* Setting.storyboard in Resources */,
+				B76F90C52244C1390064A4D5 /* ProfileDescription.storyboard in Resources */,
 				B76F904D2243C4730064A4D5 /* LaunchScreen.storyboard in Resources */,
 				B76F90BD2244AFAF0064A4D5 /* ProfileEdit.storyboard in Resources */,
 				B76F904A2243C4730064A4D5 /* Assets.xcassets in Resources */,
