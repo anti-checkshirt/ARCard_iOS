@@ -24,8 +24,9 @@ class SettingTableViewController: UITableViewController {
         case (0, 0):
             print("プロフィール")
         case (0, 1):
-            print("ログアウト")
             tableView.deselectRow(at: indexPath, animated: true)
+            let alertController = AlertHandler.alertControllerForLogout()
+            self.present(alertController, animated: true)
         case (0, 2):
             print("退会")
             tableView.deselectRow(at: indexPath, animated: true)
