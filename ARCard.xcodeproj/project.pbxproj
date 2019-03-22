@@ -35,6 +35,8 @@
 		B76F909F2243ED930064A4D5 /* UIScrollView+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F909E2243ED930064A4D5 /* UIScrollView+ARCard.swift */; };
 		B76F90A12243F5B30064A4D5 /* RegistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90A02243F5B30064A4D5 /* RegistModel.swift */; };
 		B76F90A32243F5BC0064A4D5 /* RegistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90A22243F5BC0064A4D5 /* RegistViewModel.swift */; };
+		B76F90A722449FD00064A4D5 /* AR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F90A622449FD00064A4D5 /* AR.storyboard */; };
+		B76F90A92244A0010064A4D5 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90A82244A0010064A4D5 /* ARViewController.swift */; };
 		DE071C12F39343ABEDC67A2E /* Pods_ARCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +93,8 @@
 		B76F909E2243ED930064A4D5 /* UIScrollView+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ARCard.swift"; sourceTree = "<group>"; };
 		B76F90A02243F5B30064A4D5 /* RegistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistModel.swift; sourceTree = "<group>"; };
 		B76F90A22243F5BC0064A4D5 /* RegistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistViewModel.swift; sourceTree = "<group>"; };
+		B76F90A622449FD00064A4D5 /* AR.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AR.storyboard; sourceTree = "<group>"; };
+		B76F90A82244A0010064A4D5 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardUITests.release.xcconfig"; path = "Target Support Files/Pods-ARCardUITests/Pods-ARCardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardTests.release.xcconfig"; path = "Target Support Files/Pods-ARCardTests/Pods-ARCardTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -186,10 +190,10 @@
 		B76F90412243C4710064A4D5 /* ARCard */ = {
 			isa = PBXGroup;
 			children = (
-				B76F909B2243DA4D0064A4D5 /* Extension */,
-				B76F90972243D4180064A4D5 /* Storyboard */,
 				B76F908E2243C9610064A4D5 /* App */,
+				B76F909B2243DA4D0064A4D5 /* Extension */,
 				B76F908D2243C9370064A4D5 /* Resources */,
+				B76F90972243D4180064A4D5 /* Storyboard */,
 				B76F908F2243CA080064A4D5 /* View */,
 				B76F904E2243C4730064A4D5 /* Info.plist */,
 				B76F90462243C4710064A4D5 /* Main.storyboard */,
@@ -237,6 +241,7 @@
 		B76F908F2243CA080064A4D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B76F90A522449FC80064A4D5 /* AR */,
 				B76F90902243CA0F0064A4D5 /* Regist */,
 			);
 			path = View;
@@ -245,8 +250,8 @@
 		B76F90902243CA0F0064A4D5 /* Regist */ = {
 			isa = PBXGroup;
 			children = (
-				B76F90912243CA310064A4D5 /* RegistViewController.swift */,
 				B76F90A02243F5B30064A4D5 /* RegistModel.swift */,
+				B76F90912243CA310064A4D5 /* RegistViewController.swift */,
 				B76F90A22243F5BC0064A4D5 /* RegistViewModel.swift */,
 			);
 			path = Regist;
@@ -255,9 +260,10 @@
 		B76F90972243D4180064A4D5 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				B76F90A422449FC30064A4D5 /* AR */,
 				B76F90982243D4210064A4D5 /* Regist */,
 			);
-			name = Storyboard;
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		B76F90982243D4210064A4D5 /* Regist */ = {
@@ -274,7 +280,23 @@
 				B76F909C2243DA610064A4D5 /* Notification+ARCard.swift */,
 				B76F909E2243ED930064A4D5 /* UIScrollView+ARCard.swift */,
 			);
-			name = Extension;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B76F90A422449FC30064A4D5 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				B76F90A622449FD00064A4D5 /* AR.storyboard */,
+			);
+			name = AR;
+			sourceTree = "<group>";
+		};
+		B76F90A522449FC80064A4D5 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				B76F90A82244A0010064A4D5 /* ARViewController.swift */,
+			);
+			name = AR;
 			sourceTree = "<group>";
 		};
 		D0F448F401AB0026C718AEC8 /* Pods */ = {
@@ -405,6 +427,7 @@
 				B76F904D2243C4730064A4D5 /* LaunchScreen.storyboard in Resources */,
 				B76F904A2243C4730064A4D5 /* Assets.xcassets in Resources */,
 				B76F90482243C4710064A4D5 /* Main.storyboard in Resources */,
+				B76F90A722449FD00064A4D5 /* AR.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +590,7 @@
 				B76F90452243C4710064A4D5 /* ViewController.swift in Sources */,
 				B76F90432243C4710064A4D5 /* AppDelegate.swift in Sources */,
 				B76F90922243CA310064A4D5 /* RegistViewController.swift in Sources */,
+				B76F90A92244A0010064A4D5 /* ARViewController.swift in Sources */,
 				B76F909F2243ED930064A4D5 /* UIScrollView+ARCard.swift in Sources */,
 				B76F909D2243DA610064A4D5 /* Notification+ARCard.swift in Sources */,
 				B76F90A12243F5B30064A4D5 /* RegistModel.swift in Sources */,
