@@ -17,7 +17,9 @@ class ARViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        sceneView.showsStatistics = true
+        sceneView.scene = SCNScene()
+        sceneView.autoenablesDefaultLighting = true
     }
     
     override var prefersStatusBarHidden: Bool {
