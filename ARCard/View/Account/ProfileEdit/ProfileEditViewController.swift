@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FontAwesome
 
 class ProfileEditViewController: UITableViewController {
     
@@ -16,5 +17,7 @@ class ProfileEditViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        profileImageView.setImage(with: "https://pbs.twimg.com/profile_images/1061520538386915329/ExNUPGbF_400x400.jpg")
+        editImageView.image = UIImage.fontAwesomeIcon(name: .camera, style: .regular, textColor: .clear, size: CGSize(width: 20, height: 20))
     }
 }
