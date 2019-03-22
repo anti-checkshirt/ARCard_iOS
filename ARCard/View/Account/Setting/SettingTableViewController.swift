@@ -22,9 +22,8 @@ class SettingTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch (indexPath.section, indexPath.row) {
-        case (0, 0):
-            print("プロフィール")
         case (0, 1):
+            /// ログアウト
             tableView.deselectRow(at: indexPath, animated: true)
             let alertController = AlertHandler.alertControllerForLogout()
             self.present(alertController, animated: true)
