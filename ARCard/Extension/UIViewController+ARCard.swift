@@ -11,6 +11,7 @@ import UIKit
 extension UIViewController {
     override open func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if event?.type != UIEvent.EventType.motion && event?.subtype == UIEvent.EventSubtype.motionShake { return }
-        print("hogehoehgoehgoe")
+        let target = Storyboard.debug.instantiateViewController()
+        self.present(target, animated: true)
     }
 }

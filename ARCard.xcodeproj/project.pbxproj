@@ -49,6 +49,7 @@
 		B76F90C92244CA090064A4D5 /* UIViewController+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90C82244CA090064A4D5 /* UIViewController+ARCard.swift */; };
 		B76F90CC2244CA4A0064A4D5 /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F90CB2244CA4A0064A4D5 /* Debug.storyboard */; };
 		B76F90CE2244CC560064A4D5 /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90CD2244CC560064A4D5 /* DebugViewController.swift */; };
+		B76F90D02244CD470064A4D5 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90CF2244CD470064A4D5 /* Storyboard.swift */; };
 		DE071C12F39343ABEDC67A2E /* Pods_ARCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -119,6 +120,7 @@
 		B76F90C82244CA090064A4D5 /* UIViewController+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ARCard.swift"; sourceTree = "<group>"; };
 		B76F90CB2244CA4A0064A4D5 /* Debug.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Debug.storyboard; sourceTree = "<group>"; };
 		B76F90CD2244CC560064A4D5 /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
+		B76F90CF2244CD470064A4D5 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardUITests.release.xcconfig"; path = "Target Support Files/Pods-ARCardUITests/Pods-ARCardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardTests.release.xcconfig"; path = "Target Support Files/Pods-ARCardTests/Pods-ARCardTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 				B76F90A522449FC80064A4D5 /* AR */,
 				B76F90B52244AE860064A4D5 /* Account */,
 				B76F90902243CA0F0064A4D5 /* Regist */,
+				B76F90CF2244CD470064A4D5 /* Storyboard.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -654,6 +657,7 @@
 				B76F90452243C4710064A4D5 /* ViewController.swift in Sources */,
 				B76F90B42244AADD0064A4D5 /* AlertHandler.swift in Sources */,
 				B76F90432243C4710064A4D5 /* AppDelegate.swift in Sources */,
+				B76F90D02244CD470064A4D5 /* Storyboard.swift in Sources */,
 				B76F90BF2244B1FD0064A4D5 /* UIView+ARCard.swift in Sources */,
 				B76F90922243CA310064A4D5 /* RegistViewController.swift in Sources */,
 				B76F90A92244A0010064A4D5 /* ARViewController.swift in Sources */,
