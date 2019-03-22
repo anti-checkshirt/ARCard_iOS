@@ -1,7 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Tp4-lS-op0">
+            <objects>
+                <viewController id="UGq-2W-7nP" customClass="ARViewController" customModule="ARCard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gXM-fs-G2W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xzy-GX-YZv">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </arscnView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6jM-5S-ifo" firstAttribute="trailing" secondItem="xzy-GX-YZv" secondAttribute="trailing" id="6mi-yy-LdV"/>
+                            <constraint firstItem="xzy-GX-YZv" firstAttribute="top" secondItem="6jM-5S-ifo" secondAttribute="top" id="Nng-Un-LhB"/>
+                            <constraint firstItem="xzy-GX-YZv" firstAttribute="leading" secondItem="6jM-5S-ifo" secondAttribute="leading" id="hCv-6D-uhy"/>
+                            <constraint firstItem="6jM-5S-ifo" firstAttribute="bottom" secondItem="xzy-GX-YZv" secondAttribute="bottom" id="xpb-sA-QiS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6jM-5S-ifo"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="xzy-GX-YZv" id="pbt-v1-i3V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="URj-Yf-VWW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="42" y="46"/>
+        </scene>
+    </scenes>
 </document>
