@@ -40,6 +40,7 @@
 		B76F90AC2244A14C0064A4D5 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F90AB2244A14C0064A4D5 /* Setting.storyboard */; };
 		B76F90B12244A4D70064A4D5 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90B02244A4D70064A4D5 /* SettingTableViewController.swift */; };
 		B76F90B42244AADD0064A4D5 /* AlertHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90B32244AADD0064A4D5 /* AlertHandler.swift */; };
+		B76F90BA2244AF830064A4D5 /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90B92244AF830064A4D5 /* ProfileEditViewController.swift */; };
 		DE071C12F39343ABEDC67A2E /* Pods_ARCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,7 @@
 		B76F90AB2244A14C0064A4D5 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		B76F90B02244A4D70064A4D5 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		B76F90B32244AADD0064A4D5 /* AlertHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHandler.swift; sourceTree = "<group>"; };
+		B76F90B92244AF830064A4D5 /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
 		BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardUITests.release.xcconfig"; path = "Target Support Files/Pods-ARCardUITests/Pods-ARCardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardTests.release.xcconfig"; path = "Target Support Files/Pods-ARCardTests/Pods-ARCardTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -336,6 +338,7 @@
 		B76F90B52244AE860064A4D5 /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				B76F90B82244AEBD0064A4D5 /* ProfileEdit */,
 				B76F90AD2244A3CE0064A4D5 /* Setting */,
 			);
 			path = Account;
@@ -344,9 +347,25 @@
 		B76F90B62244AE990064A4D5 /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				B76F90BB2244AFA40064A4D5 /* ProfileEdit */,
 				B76F90AA2244A1400064A4D5 /* Setting */,
 			);
 			name = Account;
+			sourceTree = "<group>";
+		};
+		B76F90B82244AEBD0064A4D5 /* ProfileEdit */ = {
+			isa = PBXGroup;
+			children = (
+				B76F90B92244AF830064A4D5 /* ProfileEditViewController.swift */,
+			);
+			name = ProfileEdit;
+			sourceTree = "<group>";
+		};
+		B76F90BB2244AFA40064A4D5 /* ProfileEdit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileEdit;
 			sourceTree = "<group>";
 		};
 		D0F448F401AB0026C718AEC8 /* Pods */ = {
@@ -648,6 +667,7 @@
 				B76F90B12244A4D70064A4D5 /* SettingTableViewController.swift in Sources */,
 				B76F90A12243F5B30064A4D5 /* RegistModel.swift in Sources */,
 				B76F90A32243F5BC0064A4D5 /* RegistViewModel.swift in Sources */,
+				B76F90BA2244AF830064A4D5 /* ProfileEditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
