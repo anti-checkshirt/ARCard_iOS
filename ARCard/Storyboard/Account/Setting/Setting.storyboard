@@ -39,6 +39,9 @@
                                                 <constraint firstItem="avf-wH-b4f" firstAttribute="leading" secondItem="GsW-ET-1r9" secondAttribute="leadingMargin" id="TJ9-A5-SCQ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ZHs-8W-jRk" kind="push" id="XQU-uq-waq"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="H9k-4k-a0d">
                                         <rect key="frame" x="0.0" y="99.5" width="375" height="44"/>
@@ -248,6 +251,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwW-08-AJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1127" y="68"/>
+        </scene>
+        <!--ProfileEdit-->
+        <scene sceneID="1SR-Gv-ZUC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ProfileEdit" id="ZHs-8W-jRk" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="CYw-7o-gky"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="po6-Xf-rXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1754" y="-47"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SMP-UA-ZDL">
