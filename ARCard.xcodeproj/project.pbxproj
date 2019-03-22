@@ -45,6 +45,7 @@
 		B76F90BF2244B1FD0064A4D5 /* UIView+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90BE2244B1FD0064A4D5 /* UIView+ARCard.swift */; };
 		B76F90C12244B29C0064A4D5 /* UIImageView+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90C02244B29C0064A4D5 /* UIImageView+ARCard.swift */; };
 		B76F90C52244C1390064A4D5 /* ProfileDescription.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F90C42244C1390064A4D5 /* ProfileDescription.storyboard */; };
+		B76F90C72244C19F0064A4D5 /* ProfileDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90C62244C19F0064A4D5 /* ProfileDescriptionViewController.swift */; };
 		DE071C12F39343ABEDC67A2E /* Pods_ARCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +112,7 @@
 		B76F90BE2244B1FD0064A4D5 /* UIView+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ARCard.swift"; sourceTree = "<group>"; };
 		B76F90C02244B29C0064A4D5 /* UIImageView+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+ARCard.swift"; sourceTree = "<group>"; };
 		B76F90C42244C1390064A4D5 /* ProfileDescription.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileDescription.storyboard; sourceTree = "<group>"; };
+		B76F90C62244C19F0064A4D5 /* ProfileDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDescriptionViewController.swift; sourceTree = "<group>"; };
 		BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardUITests.release.xcconfig"; path = "Target Support Files/Pods-ARCardUITests/Pods-ARCardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardTests.release.xcconfig"; path = "Target Support Files/Pods-ARCardTests/Pods-ARCardTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -335,8 +337,8 @@
 			isa = PBXGroup;
 			children = (
 				B76F90C42244C1390064A4D5 /* ProfileDescription.storyboard */,
+				B76F90C62244C19F0064A4D5 /* ProfileDescriptionViewController.swift */,
 			);
-			name = ProfileDescription;
 			path = ProfileDescription;
 			sourceTree = "<group>";
 		};
@@ -638,6 +640,7 @@
 				B76F90922243CA310064A4D5 /* RegistViewController.swift in Sources */,
 				B76F90A92244A0010064A4D5 /* ARViewController.swift in Sources */,
 				B76F909F2243ED930064A4D5 /* UIScrollView+ARCard.swift in Sources */,
+				B76F90C72244C19F0064A4D5 /* ProfileDescriptionViewController.swift in Sources */,
 				B76F909D2243DA610064A4D5 /* Notification+ARCard.swift in Sources */,
 				B76F90B12244A4D70064A4D5 /* SettingTableViewController.swift in Sources */,
 				B76F90A12243F5B30064A4D5 /* RegistModel.swift in Sources */,
