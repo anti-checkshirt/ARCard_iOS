@@ -9,6 +9,9 @@
 import UIKit
 
 class ProfileEditViewController: UITableViewController {
+    
+    @IBOutlet private weak var profileImageView: UIImageView!
+    @IBOutlet private weak var editImageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
