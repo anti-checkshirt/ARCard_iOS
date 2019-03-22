@@ -241,6 +241,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="設定" id="ynU-ME-QFQ"/>
+                    <connections>
+                        <outlet property="versionLabel" destination="aKq-S8-vsN" id="k1E-1O-IAx"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwW-08-AJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
