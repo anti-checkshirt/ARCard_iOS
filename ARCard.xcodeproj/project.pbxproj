@@ -279,9 +279,9 @@
 			isa = PBXGroup;
 			children = (
 				B76F909C2243DA610064A4D5 /* Notification+ARCard.swift */,
+				B76F90C02244B29C0064A4D5 /* UIImageView+ARCard.swift */,
 				B76F909E2243ED930064A4D5 /* UIScrollView+ARCard.swift */,
 				B76F90BE2244B1FD0064A4D5 /* UIView+ARCard.swift */,
-				B76F90C02244B29C0064A4D5 /* UIImageView+ARCard.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -298,8 +298,8 @@
 		B76F90AD2244A3CE0064A4D5 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				B76F90B02244A4D70064A4D5 /* SettingTableViewController.swift */,
 				B76F90AB2244A14C0064A4D5 /* Setting.storyboard */,
+				B76F90B02244A4D70064A4D5 /* SettingTableViewController.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -337,6 +337,7 @@
 				B76F90C42244C1390064A4D5 /* ProfileDescription.storyboard */,
 			);
 			name = ProfileDescription;
+			path = ProfileDescription;
 			sourceTree = "<group>";
 		};
 		D0F448F401AB0026C718AEC8 /* Pods */ = {
