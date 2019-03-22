@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import PKHUD
+import RxSwift
+import RxCocoa
 import FontAwesome
 
 class ProfileEditViewController: UITableViewController {
+    
+    private let disposeBag = DisposeBag()
     
     @IBOutlet private weak var profileImageView: UIImageView!
     @IBOutlet private weak var editImageView: UIImageView!
@@ -27,10 +32,17 @@ class ProfileEditViewController: UITableViewController {
         
         let doneButton = UIBarButtonItem(title: "保存", style: .done, target: nil, action: #selector(saveButtonTappend))
         navigationItem.rightBarButtonItem = doneButton
+        
+        nameTextField.text = "ともき"
+        organizerTextField.text = "iOS Engineer"
+        sexTextField.text = "男性"
+        ageTextField.text = "2002/03/11"
     }
     
     @objc private func saveButtonTappend() {
-        
+        HUD.flash(.success, onView: view, delay: 2.0) { _ in
+            self.dismiss(animated: true)
+        }
     }
 }
 
