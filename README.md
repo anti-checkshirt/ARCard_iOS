@@ -19,6 +19,6 @@ $ bundle install
 ## ライブラリのインストール
 
 ```bash
-$ bundle exec fastlane setup
+$ bundle exec fastlane ios setup
 ```
 
