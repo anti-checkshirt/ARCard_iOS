@@ -51,6 +51,12 @@
 		B76F90CE2244CC560064A4D5 /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90CD2244CC560064A4D5 /* DebugViewController.swift */; };
 		B76F90D02244CD470064A4D5 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90CF2244CD470064A4D5 /* Storyboard.swift */; };
 		B76F90D22244D11C0064A4D5 /* URL+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90D12244D11C0064A4D5 /* URL+ARCard.swift */; };
+		B7CE3A59224749E500AD427D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7CE3A58224749E500AD427D /* GoogleService-Info.plist */; };
+		B7CE3A5C22476B9A00AD427D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE3A5B22476B9A00AD427D /* APIClient.swift */; };
+		B7CE3A5E22476C0400AD427D /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE3A5D22476C0400AD427D /* APIResult.swift */; };
+		B7CE3A6222476C2B00AD427D /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE3A6122476C2B00AD427D /* APIRequest.swift */; };
+		B7CE3A6422476C4B00AD427D /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE3A6322476C4B00AD427D /* ErrorModel.swift */; };
+		B7CE3A6822476C9E00AD427D /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE3A6722476C9E00AD427D /* AuthAPI.swift */; };
 		DE071C12F39343ABEDC67A2E /* Pods_ARCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6C48E7E64FA0DAC06D7B53 /* Pods_ARCardTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +129,12 @@
 		B76F90CD2244CC560064A4D5 /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
 		B76F90CF2244CD470064A4D5 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		B76F90D12244D11C0064A4D5 /* URL+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+ARCard.swift"; sourceTree = "<group>"; };
+		B7CE3A58224749E500AD427D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B7CE3A5B22476B9A00AD427D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B7CE3A5D22476C0400AD427D /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
+		B7CE3A6122476C2B00AD427D /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		B7CE3A6322476C4B00AD427D /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		B7CE3A6722476C9E00AD427D /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
 		BFD0498AD85487166620D098 /* Pods-ARCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardUITests.release.xcconfig"; path = "Target Support Files/Pods-ARCardUITests/Pods-ARCardUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C59B9AD85F3B454050EEA88F /* Pods_ARCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5D2180AC95B6DB9755C28 /* Pods-ARCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardTests.release.xcconfig"; path = "Target Support Files/Pods-ARCardTests/Pods-ARCardTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -218,12 +230,14 @@
 		B76F90412243C4710064A4D5 /* ARCard */ = {
 			isa = PBXGroup;
 			children = (
+				B7CE3A5A22476B8800AD427D /* API */,
 				B76F908E2243C9610064A4D5 /* App */,
 				B76F90B22244AACE0064A4D5 /* Common */,
 				B76F909B2243DA4D0064A4D5 /* Extension */,
 				B76F908D2243C9370064A4D5 /* Resources */,
 				B76F908F2243CA080064A4D5 /* View */,
 				B76F904E2243C4730064A4D5 /* Info.plist */,
+				B7CE3A58224749E500AD427D /* GoogleService-Info.plist */,
 				B76F90462243C4710064A4D5 /* Main.storyboard */,
 				B76F908B2243C8C60064A4D5 /* Settings.bundle */,
 				B76F90442243C4710064A4D5 /* ViewController.swift */,
@@ -365,6 +379,42 @@
 			name = Debug;
 			sourceTree = "<group>";
 		};
+		B7CE3A5A22476B8800AD427D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE3A6522476C9100AD427D /* Firebase */,
+				B7CE3A6022476C1A00AD427D /* Request */,
+				B7CE3A5F22476C1400AD427D /* Model */,
+				B7CE3A5B22476B9A00AD427D /* APIClient.swift */,
+				B7CE3A5D22476C0400AD427D /* APIResult.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		B7CE3A5F22476C1400AD427D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE3A6322476C4B00AD427D /* ErrorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7CE3A6022476C1A00AD427D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE3A6122476C2B00AD427D /* APIRequest.swift */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		B7CE3A6522476C9100AD427D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				B7CE3A6722476C9E00AD427D /* AuthAPI.swift */,
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
 		D0F448F401AB0026C718AEC8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +442,7 @@
 				B76F90882243C7990064A4D5 /* Carthage */,
 				B76F90892243C8830064A4D5 /* SwiftLint */,
 				B76F908A2243C8940064A4D5 /* LicensePlist */,
+				2AEBCE78B826CEAD8DFAC6D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -496,6 +547,7 @@
 				B76F90BD2244AFAF0064A4D5 /* ProfileEdit.storyboard in Resources */,
 				B76F90CC2244CA4A0064A4D5 /* Debug.storyboard in Resources */,
 				B76F904A2243C4730064A4D5 /* Assets.xcassets in Resources */,
+				B7CE3A59224749E500AD427D /* GoogleService-Info.plist in Resources */,
 				B76F90482243C4710064A4D5 /* Main.storyboard in Resources */,
 				B76F90A722449FD00064A4D5 /* AR.storyboard in Resources */,
 			);
@@ -538,6 +590,32 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AEBCE78B826CEAD8DFAC6D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARCard/Pods-ARCard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARCard/Pods-ARCard-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5F8A1208273745F836C3649 /* [CP] Check Pods Manifest.lock */ = {
@@ -658,15 +736,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B76F90452243C4710064A4D5 /* ViewController.swift in Sources */,
+				B7CE3A6222476C2B00AD427D /* APIRequest.swift in Sources */,
 				B76F90B42244AADD0064A4D5 /* AlertHandler.swift in Sources */,
 				B76F90432243C4710064A4D5 /* AppDelegate.swift in Sources */,
+				B7CE3A6422476C4B00AD427D /* ErrorModel.swift in Sources */,
 				B76F90D02244CD470064A4D5 /* Storyboard.swift in Sources */,
 				B76F90BF2244B1FD0064A4D5 /* UIView+ARCard.swift in Sources */,
+				B7CE3A6822476C9E00AD427D /* AuthAPI.swift in Sources */,
 				B76F90922243CA310064A4D5 /* RegistViewController.swift in Sources */,
+				B7CE3A5C22476B9A00AD427D /* APIClient.swift in Sources */,
 				B76F90A92244A0010064A4D5 /* ARViewController.swift in Sources */,
 				B76F909F2243ED930064A4D5 /* UIScrollView+ARCard.swift in Sources */,
 				B76F90C72244C19F0064A4D5 /* ProfileDescriptionViewController.swift in Sources */,
 				B76F909D2243DA610064A4D5 /* Notification+ARCard.swift in Sources */,
+				B7CE3A5E22476C0400AD427D /* APIResult.swift in Sources */,
 				B76F90B12244A4D70064A4D5 /* SettingTableViewController.swift in Sources */,
 				B76F90CE2244CC560064A4D5 /* DebugViewController.swift in Sources */,
 				B76F90A12243F5B30064A4D5 /* RegistModel.swift in Sources */,

@@ -1,8 +1,53 @@
+name: Firebase, nameSpecified: 
+body: Copyright 2019 Googl…
+version: 5.16.0
+
+name: FirebaseAnalytics, nameSpecified: 
+body: Copyright 2019 Googl…
+version: 5.5.0
+
+name: FirebaseAuth, nameSpecified: 
+body: 
+                   …
+version: 5.3.0
+
+name: FirebaseAuthInterop, nameSpecified: 
+body: 
+                   …
+version: 1.0.0
+
+name: FirebaseCore, nameSpecified: 
+body: 
+                   …
+version: 5.2.0
+
+name: FirebaseInstanceID, nameSpecified: 
+body: Copyright 2019 Googl…
+version: 3.4.0
+
+name: GoogleAppMeasurement, nameSpecified: 
+body: Copyright 2019 Googl…
+version: 5.5.0
+
+name: GoogleUtilities, nameSpecified: 
+body: 
+                   …
+version: 5.3.7
+
+name: GTMSessionFetcher, nameSpecified: 
+body: 
+                   …
+version: 1.2.1
+
 name: LicensePlist, nameSpecified: 
 body: MIT License
 
 Copyrig…
 version: 2.1.0
+
+name: nanopb, nameSpecified: 
+body: Copyright (c) 2011 P…
+version: 0.3.901
 
 name: SwiftLint, nameSpecified: 
 body: The MIT License (MIT…

@@ -9,6 +9,8 @@ target 'ARCard' do
 
   pod 'SwiftLint'
   pod 'LicensePlist'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
   target 'ARCardTests' do
     inherit! :search_paths
