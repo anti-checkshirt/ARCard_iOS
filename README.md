@@ -19,6 +19,7 @@ $ bundle install
 ## ライブラリのインストール
 
 ```bash
-$ bundle exec fastlane ios setup
+$ pod install
+$ carthage bootstrap --platform iOS
 ```
 
