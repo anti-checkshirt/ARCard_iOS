@@ -20,6 +20,11 @@ class ARViewController: UIViewController {
         sceneView.showsStatistics = true
         sceneView.scene = SCNScene()
         sceneView.autoenablesDefaultLighting = true
+        
+        let status = AVCaptureDevice.authorizationStatus(for: .video)
+        if status == .denied {
+            
+        }
     }
     
     override var prefersStatusBarHidden: Bool {
