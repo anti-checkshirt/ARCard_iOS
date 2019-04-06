@@ -55,6 +55,8 @@
 		B79F46E222590D940067E4EE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F46E122590D940067E4EE /* MenuViewController.swift */; };
 		B79F46E422590DA90067E4EE /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79F46E322590DA90067E4EE /* Menu.storyboard */; };
 		B79F4773225914F60067E4EE /* NSObject_Rx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79F473E225914EA0067E4EE /* NSObject_Rx.framework */; };
+		B79F4776225920970067E4EE /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79F4775225920970067E4EE /* Info.storyboard */; };
+		B79F47782259209D0067E4EE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F47772259209D0067E4EE /* InfoViewController.swift */; };
 		B7CE3A59224749E500AD427D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7CE3A58224749E500AD427D /* GoogleService-Info.plist */; };
 		B7CE3A5C22476B9A00AD427D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE3A5B22476B9A00AD427D /* APIClient.swift */; };
 		B7CE3A5E22476C0400AD427D /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE3A5D22476C0400AD427D /* APIResult.swift */; };
@@ -273,6 +275,8 @@
 		B79F4770225914EA0067E4EE /* .Validator.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = .Validator.version; sourceTree = "<group>"; };
 		B79F4771225914EA0067E4EE /* .SwiftyUserDefaults.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = .SwiftyUserDefaults.version; sourceTree = "<group>"; };
 		B79F4772225914EA0067E4EE /* .SnapKit.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = .SnapKit.version; sourceTree = "<group>"; };
+		B79F4775225920970067E4EE /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
+		B79F47772259209D0067E4EE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		B7CE3A58224749E500AD427D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B7CE3A5B22476B9A00AD427D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		B7CE3A5D22476C0400AD427D /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
@@ -474,6 +478,7 @@
 		B76F90AD2244A3CE0064A4D5 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				B79F47742259208F0067E4EE /* Info */,
 				B76F90AB2244A14C0064A4D5 /* Setting.storyboard */,
 				B76F90B02244A4D70064A4D5 /* SettingTableViewController.swift */,
 			);
@@ -540,7 +545,6 @@
 				B79F46DC22590CD70067E4EE /* MenuButton.storyboard */,
 				B79F46DE22590CE40067E4EE /* MenuButtonViewController.swift */,
 			);
-			name = ARMenuButton;
 			path = ARMenuButton;
 			sourceTree = "<group>";
 		};
@@ -550,7 +554,6 @@
 				B79F46E322590DA90067E4EE /* Menu.storyboard */,
 				B79F46E122590D940067E4EE /* MenuViewController.swift */,
 			);
-			name = Menu;
 			path = Menu;
 			sourceTree = "<group>";
 		};
@@ -731,6 +734,15 @@
 			path = tvOS;
 			sourceTree = "<group>";
 		};
+		B79F47742259208F0067E4EE /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				B79F4775225920970067E4EE /* Info.storyboard */,
+				B79F47772259209D0067E4EE /* InfoViewController.swift */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
 		B7CE3A5A22476B8800AD427D /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -899,6 +911,7 @@
 				B76F90C52244C1390064A4D5 /* ProfileDescription.storyboard in Resources */,
 				B76F904D2243C4730064A4D5 /* LaunchScreen.storyboard in Resources */,
 				B79F46D922590B150067E4EE /* Color.xcassets in Resources */,
+				B79F4776225920970067E4EE /* Info.storyboard in Resources */,
 				B76F90BD2244AFAF0064A4D5 /* ProfileEdit.storyboard in Resources */,
 				B76F90CC2244CA4A0064A4D5 /* Debug.storyboard in Resources */,
 				B76F904A2243C4730064A4D5 /* Assets.xcassets in Resources */,
@@ -1094,6 +1107,7 @@
 				B76F90B42244AADD0064A4D5 /* AlertHandler.swift in Sources */,
 				B76F90432243C4710064A4D5 /* AppDelegate.swift in Sources */,
 				B7CE3A6422476C4B00AD427D /* ErrorModel.swift in Sources */,
+				B79F47782259209D0067E4EE /* InfoViewController.swift in Sources */,
 				B76F90D02244CD470064A4D5 /* Storyboard.swift in Sources */,
 				B76F90BF2244B1FD0064A4D5 /* UIView+ARCard.swift in Sources */,
 				B7CE3A6822476C9E00AD427D /* AuthAPI.swift in Sources */,

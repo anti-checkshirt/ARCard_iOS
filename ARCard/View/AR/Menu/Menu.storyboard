@@ -38,6 +38,7 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="profileButtonDidTappend:" destination="JLh-js-VRZ" eventType="touchUpInside" id="Mi7-mG-Oqq"/>
+                                                            <segue destination="7HS-4Q-rWX" kind="modal" id="El7-g1-qI1"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" alpha="0.87" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW0-2P-mwL">
@@ -89,6 +90,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oWY-VY-xwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="289" y="-208"/>
+        </scene>
+        <!--Info-->
+        <scene sceneID="Ozf-ZH-Vlb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Info" id="7HS-4Q-rWX" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O9u-VZ-iCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="668" y="-454"/>
         </scene>
     </scenes>
 </document>
