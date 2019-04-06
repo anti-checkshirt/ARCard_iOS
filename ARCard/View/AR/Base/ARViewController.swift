@@ -16,12 +16,6 @@ import NSObject_Rx
 class ARViewController: UIViewController {
     
     let openSubject = PublishSubject<Void>()
-    private var menuButton: MenuButtonViewController {
-        return Storyboard.menuButton.instantiateViewController()
-    }
-    private var menuView: MenuViewController {
-        return Storyboard.menu.instantiateViewController()
-    }
     
     @IBOutlet private weak var sceneView: ARSCNView! {
         didSet {
@@ -31,6 +25,8 @@ class ARViewController: UIViewController {
         }
     }
     @IBOutlet private weak var menuButtonView: UIView!
+    @IBOutlet private weak var menuView: UIView!
+    @IBOutlet private weak var sceneViewRight: NSLayoutConstraint!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,10 +37,16 @@ class ARViewController: UIViewController {
         if status == .denied {
             
         }
+        
+        openSubject.subscribe(onNext: { [weak self] in
+            guard let width = self?.view.frame.width else { return }
+            self?.sceneViewRight.constant = -width * 0.6
+        }).disposed(by: rx.disposeBag)
     }
     
     private func setUp() {
-        displayContentController(content: menuButton, container: menuButtonView)
+        displayContentController(content: Storyboard.menuButton.instantiateViewController(), container: menuButtonView)
+        displayContentController(content: Storyboard.menu.instantiateViewController(), container: menuView)
     }
     
     override var prefersStatusBarHidden: Bool {

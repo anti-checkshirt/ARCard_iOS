@@ -464,9 +464,9 @@
 		B76F90A522449FC80064A4D5 /* AR */ = {
 			isa = PBXGroup;
 			children = (
-				B79F46E022590D850067E4EE /* Menu */,
 				B79F46DB22590CCD0067E4EE /* ARMenuButton */,
 				B79F46DA22590CC60067E4EE /* Base */,
+				B79F46E022590D850067E4EE /* Menu */,
 			);
 			path = AR;
 			sourceTree = "<group>";
@@ -541,15 +541,17 @@
 				B79F46DE22590CE40067E4EE /* MenuButtonViewController.swift */,
 			);
 			name = ARMenuButton;
+			path = ARMenuButton;
 			sourceTree = "<group>";
 		};
 		B79F46E022590D850067E4EE /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				B79F46E122590D940067E4EE /* MenuViewController.swift */,
 				B79F46E322590DA90067E4EE /* Menu.storyboard */,
+				B79F46E122590D940067E4EE /* MenuViewController.swift */,
 			);
 			name = Menu;
+			path = Menu;
 			sourceTree = "<group>";
 		};
 		B79F46E5225914EA0067E4EE /* Build */ = {

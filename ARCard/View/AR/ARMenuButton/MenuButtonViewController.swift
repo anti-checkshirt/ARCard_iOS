@@ -22,5 +22,4 @@ class MenuButtonViewController: UIViewController {
     @IBAction private func menuButtonDidTappend(_ sender: UIButton) {
         parentScreen.openSubject.onNext(())
     }
-    
 }

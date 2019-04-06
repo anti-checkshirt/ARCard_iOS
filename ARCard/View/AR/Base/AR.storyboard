@@ -18,37 +18,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xzy-GX-YZv">
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mla-A0-Z7d">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </arscnView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v7v-tV-1qO">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8RL-Vq-9Xd">
                                 <rect key="frame" x="16" y="44" width="50" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="Q3S-M2-GW8"/>
-                                    <constraint firstAttribute="height" constant="50" id="yeC-xE-728"/>
+                                    <constraint firstAttribute="height" constant="50" id="a5L-aW-SqY"/>
+                                    <constraint firstAttribute="width" constant="50" id="v2q-6x-IEM"/>
                                 </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e0K-Cd-CPR">
+                                <rect key="frame" x="-225" y="20" width="225" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="v7v-tV-1qO" firstAttribute="top" secondItem="6jM-5S-ifo" secondAttribute="top" constant="24" id="51v-FE-KB6"/>
-                            <constraint firstItem="6jM-5S-ifo" firstAttribute="trailing" secondItem="xzy-GX-YZv" secondAttribute="trailing" id="6mi-yy-LdV"/>
-                            <constraint firstItem="v7v-tV-1qO" firstAttribute="leading" secondItem="6jM-5S-ifo" secondAttribute="leading" constant="16" id="H6x-jX-u53"/>
-                            <constraint firstItem="xzy-GX-YZv" firstAttribute="top" secondItem="6jM-5S-ifo" secondAttribute="top" id="Nng-Un-LhB"/>
-                            <constraint firstItem="xzy-GX-YZv" firstAttribute="leading" secondItem="6jM-5S-ifo" secondAttribute="leading" id="hCv-6D-uhy"/>
-                            <constraint firstItem="6jM-5S-ifo" firstAttribute="bottom" secondItem="xzy-GX-YZv" secondAttribute="bottom" id="xpb-sA-QiS"/>
+                            <constraint firstItem="8RL-Vq-9Xd" firstAttribute="top" secondItem="6jM-5S-ifo" secondAttribute="top" constant="24" id="55R-tq-bGC"/>
+                            <constraint firstItem="e0K-Cd-CPR" firstAttribute="top" secondItem="6jM-5S-ifo" secondAttribute="top" id="9eY-uN-DF9"/>
+                            <constraint firstItem="Mla-A0-Z7d" firstAttribute="top" secondItem="6jM-5S-ifo" secondAttribute="top" id="HLe-3c-dPK"/>
+                            <constraint firstItem="e0K-Cd-CPR" firstAttribute="width" secondItem="gXM-fs-G2W" secondAttribute="width" multiplier="0.6" id="L0t-yB-ihw"/>
+                            <constraint firstItem="6jM-5S-ifo" firstAttribute="bottom" secondItem="Mla-A0-Z7d" secondAttribute="bottom" id="LjS-FS-pbh"/>
+                            <constraint firstItem="6jM-5S-ifo" firstAttribute="trailing" secondItem="Mla-A0-Z7d" secondAttribute="trailing" id="P7A-GA-ozQ"/>
+                            <constraint firstItem="8RL-Vq-9Xd" firstAttribute="leading" secondItem="Mla-A0-Z7d" secondAttribute="leading" constant="16" id="U7v-Lo-pz9"/>
+                            <constraint firstItem="6jM-5S-ifo" firstAttribute="bottom" secondItem="e0K-Cd-CPR" secondAttribute="bottom" id="ZT8-w4-bwu"/>
+                            <constraint firstItem="Mla-A0-Z7d" firstAttribute="width" secondItem="gXM-fs-G2W" secondAttribute="width" id="eWP-x3-Vpo"/>
+                            <constraint firstItem="Mla-A0-Z7d" firstAttribute="leading" secondItem="e0K-Cd-CPR" secondAttribute="trailing" id="nef-XT-TTh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6jM-5S-ifo"/>
                     </view>
                     <connections>
-                        <outlet property="menuButtonView" destination="v7v-tV-1qO" id="s8W-Nn-Fsm"/>
-                        <outlet property="sceneView" destination="xzy-GX-YZv" id="pbt-v1-i3V"/>
+                        <outlet property="menuButtonView" destination="8RL-Vq-9Xd" id="Aej-ge-hjh"/>
+                        <outlet property="menuView" destination="e0K-Cd-CPR" id="the-ob-Ojh"/>
+                        <outlet property="sceneView" destination="Mla-A0-Z7d" id="Acx-J4-vk1"/>
+                        <outlet property="sceneViewRight" destination="nef-XT-TTh" id="nIa-EP-afc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="URj-Yf-VWW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="42" y="46"/>
+            <point key="canvasLocation" x="40.799999999999997" y="45.42728635682159"/>
         </scene>
     </scenes>
 </document>
