@@ -38,7 +38,6 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="profileButtonDidTappend:" destination="JLh-js-VRZ" eventType="touchUpInside" id="Mi7-mG-Oqq"/>
-                                                            <segue destination="7HS-4Q-rWX" kind="modal" id="El7-g1-qI1"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" alpha="0.87" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW0-2P-mwL">
@@ -52,6 +51,7 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="infoButtonDidTappend:" destination="JLh-js-VRZ" eventType="touchUpInside" id="5Iz-sc-9Ur"/>
+                                                            <segue destination="7HS-4Q-rWX" kind="modal" id="NI5-MN-6co"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -97,7 +97,7 @@
                 <viewControllerPlaceholder storyboardName="Info" id="7HS-4Q-rWX" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O9u-VZ-iCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="668" y="-454"/>
+            <point key="canvasLocation" x="672" y="-407"/>
         </scene>
     </scenes>
 </document>

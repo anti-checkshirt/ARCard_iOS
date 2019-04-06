@@ -12,6 +12,7 @@ class InfoViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        navigationItem.title = "アプリについて"
     }
 }
