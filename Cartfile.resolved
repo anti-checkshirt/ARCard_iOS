@@ -1,6 +1,7 @@
 github "Alamofire/Alamofire" "4.8.1"
 github "Ekhoo/Device" "3.1.2"
-github "ReactiveX/RxSwift" "4.4.2"
+github "ReactiveX/RxSwift" "4.5.0"
+github "RxSwiftCommunity/NSObject-Rx" "4.4.1"
 github "SnapKit/SnapKit" "4.2.0"
 github "adamwaite/Validator" "v3.1.1"
 github "kean/Nuke" "7.5.2"
