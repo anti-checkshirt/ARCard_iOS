@@ -115,6 +115,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="o52-Xi-pmw"/>
                     </view>
+                    <connections>
+                        <outlet property="iconImageView" destination="zDk-tm-nql" id="3Xg-cv-I60"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b80-ef-cRM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

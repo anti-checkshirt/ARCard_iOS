@@ -9,6 +9,8 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    
+    @IBOutlet private weak var iconImageView: IconImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
