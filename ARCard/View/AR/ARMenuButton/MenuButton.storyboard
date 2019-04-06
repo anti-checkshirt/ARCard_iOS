@@ -18,25 +18,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFC-Cs-kuh">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HZ5-jd-Pkc">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxD-ud-Iox">
+                                        <rect key="frame" x="12" y="12" width="26" height="26"/>
+                                        <state key="normal" title="Button" image="menu"/>
+                                        <connections>
+                                            <action selector="menuButtonDidTappend:" destination="zMv-Z8-wn9" eventType="touchUpInside" id="xss-f2-FpT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="menuButtonDidTappend:" destination="zMv-Z8-wn9" eventType="touchUpInside" id="gz5-HV-SXZ"/>
-                                </connections>
-                            </button>
+                                <constraints>
+                                    <constraint firstItem="XxD-ud-Iox" firstAttribute="leading" secondItem="HZ5-jd-Pkc" secondAttribute="leading" constant="12" id="YRz-Ze-vKt"/>
+                                    <constraint firstAttribute="trailing" secondItem="XxD-ud-Iox" secondAttribute="trailing" constant="12" id="bss-Js-cF8"/>
+                                    <constraint firstAttribute="bottom" secondItem="XxD-ud-Iox" secondAttribute="bottom" constant="12" id="bxB-UK-Zu2"/>
+                                    <constraint firstItem="XxD-ud-Iox" firstAttribute="top" secondItem="HZ5-jd-Pkc" secondAttribute="top" constant="12" id="ec5-1Q-SRo"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="76O-Tf-3TH" firstAttribute="bottom" secondItem="cFC-Cs-kuh" secondAttribute="bottom" id="e6f-IG-Hnk"/>
-                            <constraint firstItem="cFC-Cs-kuh" firstAttribute="leading" secondItem="76O-Tf-3TH" secondAttribute="leading" id="fvK-Mq-Bho"/>
-                            <constraint firstItem="76O-Tf-3TH" firstAttribute="trailing" secondItem="cFC-Cs-kuh" secondAttribute="trailing" id="rsX-k1-kn0"/>
-                            <constraint firstItem="cFC-Cs-kuh" firstAttribute="top" secondItem="76O-Tf-3TH" secondAttribute="top" id="swA-EP-NEI"/>
+                            <constraint firstItem="HZ5-jd-Pkc" firstAttribute="top" secondItem="G38-gj-SLU" secondAttribute="top" id="Bzr-4p-MTf"/>
+                            <constraint firstAttribute="trailing" secondItem="HZ5-jd-Pkc" secondAttribute="trailing" id="Oio-Ru-oDF"/>
+                            <constraint firstAttribute="bottom" secondItem="HZ5-jd-Pkc" secondAttribute="bottom" id="ZYc-QZ-QPa"/>
+                            <constraint firstItem="HZ5-jd-Pkc" firstAttribute="leading" secondItem="G38-gj-SLU" secondAttribute="leading" id="kbt-Jw-9JJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="76O-Tf-3TH"/>
                     </view>
@@ -48,4 +55,7 @@
             <point key="canvasLocation" x="55" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menu" width="100" height="100"/>
+    </resources>
 </document>
