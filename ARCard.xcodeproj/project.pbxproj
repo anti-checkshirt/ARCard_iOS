@@ -257,11 +257,11 @@
 		B76F908D2243C9370064A4D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B76F904E2243C4730064A4D5 /* Info.plist */,
-				B7CE3A58224749E500AD427D /* GoogleService-Info.plist */,
-				B76F908B2243C8C60064A4D5 /* Settings.bundle */,
 				B76F90492243C4730064A4D5 /* Assets.xcassets */,
+				B7CE3A58224749E500AD427D /* GoogleService-Info.plist */,
+				B76F904E2243C4730064A4D5 /* Info.plist */,
 				B76F904B2243C4730064A4D5 /* LaunchScreen.storyboard */,
+				B76F908B2243C8C60064A4D5 /* Settings.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -277,9 +277,9 @@
 		B76F908F2243CA080064A4D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B76F90CA2244CA330064A4D5 /* Debug */,
 				B76F90A522449FC80064A4D5 /* AR */,
 				B76F90B52244AE860064A4D5 /* Account */,
+				B76F90CA2244CA330064A4D5 /* Debug */,
 				B76F90902243CA0F0064A4D5 /* Regist */,
 				B76F90CF2244CD470064A4D5 /* Storyboard.swift */,
 			);
@@ -371,18 +371,20 @@
 				B76F90CD2244CC560064A4D5 /* DebugViewController.swift */,
 			);
 			name = Debug;
+			path = Debug;
 			sourceTree = "<group>";
 		};
 		B7CE3A5A22476B8800AD427D /* API */ = {
 			isa = PBXGroup;
 			children = (
 				B7CE3A6522476C9100AD427D /* Firebase */,
-				B7CE3A6022476C1A00AD427D /* Request */,
 				B7CE3A5F22476C1400AD427D /* Model */,
+				B7CE3A6022476C1A00AD427D /* Request */,
 				B7CE3A5B22476B9A00AD427D /* APIClient.swift */,
 				B7CE3A5D22476C0400AD427D /* APIResult.swift */,
 			);
 			name = API;
+			path = API;
 			sourceTree = "<group>";
 		};
 		B7CE3A5F22476C1400AD427D /* Model */ = {
@@ -399,6 +401,7 @@
 				B7CE3A6122476C2B00AD427D /* APIRequest.swift */,
 			);
 			name = Request;
+			path = Request;
 			sourceTree = "<group>";
 		};
 		B7CE3A6522476C9100AD427D /* Firebase */ = {
@@ -407,6 +410,7 @@
 				B7CE3A6722476C9E00AD427D /* AuthAPI.swift */,
 			);
 			name = Firebase;
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		D0F448F401AB0026C718AEC8 /* Pods */ = {
