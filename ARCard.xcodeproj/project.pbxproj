@@ -42,8 +42,6 @@
 		B76F90BD2244AFAF0064A4D5 /* ProfileEdit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F90BC2244AFAF0064A4D5 /* ProfileEdit.storyboard */; };
 		B76F90BF2244B1FD0064A4D5 /* UIView+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90BE2244B1FD0064A4D5 /* UIView+ARCard.swift */; };
 		B76F90C12244B29C0064A4D5 /* UIImageView+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90C02244B29C0064A4D5 /* UIImageView+ARCard.swift */; };
-		B76F90C52244C1390064A4D5 /* ProfileDescription.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F90C42244C1390064A4D5 /* ProfileDescription.storyboard */; };
-		B76F90C72244C19F0064A4D5 /* ProfileDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90C62244C19F0064A4D5 /* ProfileDescriptionViewController.swift */; };
 		B76F90C92244CA090064A4D5 /* UIViewController+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90C82244CA090064A4D5 /* UIViewController+ARCard.swift */; };
 		B76F90CC2244CA4A0064A4D5 /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76F90CB2244CA4A0064A4D5 /* Debug.storyboard */; };
 		B76F90CE2244CC560064A4D5 /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90CD2244CC560064A4D5 /* DebugViewController.swift */; };
@@ -57,6 +55,8 @@
 		B79F4773225914F60067E4EE /* NSObject_Rx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79F473E225914EA0067E4EE /* NSObject_Rx.framework */; };
 		B79F4776225920970067E4EE /* Info.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79F4775225920970067E4EE /* Info.storyboard */; };
 		B79F47782259209D0067E4EE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F47772259209D0067E4EE /* InfoViewController.swift */; };
+		B79F477A22592AC90067E4EE /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79F477922592AC90067E4EE /* Profile.storyboard */; };
+		B79F477C22592AD90067E4EE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F477B22592AD90067E4EE /* ProfileViewController.swift */; };
 		B7CE3A59224749E500AD427D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7CE3A58224749E500AD427D /* GoogleService-Info.plist */; };
 		B7CE3A5C22476B9A00AD427D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE3A5B22476B9A00AD427D /* APIClient.swift */; };
 		B7CE3A5E22476C0400AD427D /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE3A5D22476C0400AD427D /* APIResult.swift */; };
@@ -126,8 +126,6 @@
 		B76F90BC2244AFAF0064A4D5 /* ProfileEdit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileEdit.storyboard; sourceTree = "<group>"; };
 		B76F90BE2244B1FD0064A4D5 /* UIView+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ARCard.swift"; sourceTree = "<group>"; };
 		B76F90C02244B29C0064A4D5 /* UIImageView+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+ARCard.swift"; sourceTree = "<group>"; };
-		B76F90C42244C1390064A4D5 /* ProfileDescription.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileDescription.storyboard; sourceTree = "<group>"; };
-		B76F90C62244C19F0064A4D5 /* ProfileDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDescriptionViewController.swift; sourceTree = "<group>"; };
 		B76F90C82244CA090064A4D5 /* UIViewController+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ARCard.swift"; sourceTree = "<group>"; };
 		B76F90CB2244CA4A0064A4D5 /* Debug.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Debug.storyboard; sourceTree = "<group>"; };
 		B76F90CD2244CC560064A4D5 /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
@@ -277,6 +275,8 @@
 		B79F4772225914EA0067E4EE /* .SnapKit.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = .SnapKit.version; sourceTree = "<group>"; };
 		B79F4775225920970067E4EE /* Info.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info.storyboard; sourceTree = "<group>"; };
 		B79F47772259209D0067E4EE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		B79F477922592AC90067E4EE /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		B79F477B22592AD90067E4EE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B7CE3A58224749E500AD427D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B7CE3A5B22476B9A00AD427D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		B7CE3A5D22476C0400AD427D /* APIResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
@@ -496,7 +496,7 @@
 		B76F90B52244AE860064A4D5 /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				B76F90C32244C1290064A4D5 /* ProfileDescription */,
+				B76F90C32244C1290064A4D5 /* Profile */,
 				B76F90B82244AEBD0064A4D5 /* ProfileEdit */,
 				B76F90AD2244A3CE0064A4D5 /* Setting */,
 			);
@@ -512,13 +512,13 @@
 			path = ProfileEdit;
 			sourceTree = "<group>";
 		};
-		B76F90C32244C1290064A4D5 /* ProfileDescription */ = {
+		B76F90C32244C1290064A4D5 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				B76F90C42244C1390064A4D5 /* ProfileDescription.storyboard */,
-				B76F90C62244C19F0064A4D5 /* ProfileDescriptionViewController.swift */,
+				B79F477922592AC90067E4EE /* Profile.storyboard */,
+				B79F477B22592AD90067E4EE /* ProfileViewController.swift */,
 			);
-			path = ProfileDescription;
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		B76F90CA2244CA330064A4D5 /* Debug */ = {
@@ -741,6 +741,7 @@
 				B79F47772259209D0067E4EE /* InfoViewController.swift */,
 			);
 			name = Info;
+			path = Info;
 			sourceTree = "<group>";
 		};
 		B7CE3A5A22476B8800AD427D /* API */ = {
@@ -908,7 +909,6 @@
 				B79F46E422590DA90067E4EE /* Menu.storyboard in Resources */,
 				B76F90AC2244A14C0064A4D5 /* Setting.storyboard in Resources */,
 				B79F46DD22590CD70067E4EE /* MenuButton.storyboard in Resources */,
-				B76F90C52244C1390064A4D5 /* ProfileDescription.storyboard in Resources */,
 				B76F904D2243C4730064A4D5 /* LaunchScreen.storyboard in Resources */,
 				B79F46D922590B150067E4EE /* Color.xcassets in Resources */,
 				B79F4776225920970067E4EE /* Info.storyboard in Resources */,
@@ -916,6 +916,7 @@
 				B76F90CC2244CA4A0064A4D5 /* Debug.storyboard in Resources */,
 				B76F904A2243C4730064A4D5 /* Assets.xcassets in Resources */,
 				B7CE3A59224749E500AD427D /* GoogleService-Info.plist in Resources */,
+				B79F477A22592AC90067E4EE /* Profile.storyboard in Resources */,
 				B76F90A722449FD00064A4D5 /* AR.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1116,7 +1117,6 @@
 				B7CE3A5C22476B9A00AD427D /* APIClient.swift in Sources */,
 				B76F90A92244A0010064A4D5 /* ARViewController.swift in Sources */,
 				B76F909F2243ED930064A4D5 /* UIScrollView+ARCard.swift in Sources */,
-				B76F90C72244C19F0064A4D5 /* ProfileDescriptionViewController.swift in Sources */,
 				B76F909D2243DA610064A4D5 /* Notification+ARCard.swift in Sources */,
 				B7CE3A5E22476C0400AD427D /* APIResult.swift in Sources */,
 				B76F90B12244A4D70064A4D5 /* SettingTableViewController.swift in Sources */,
@@ -1126,6 +1126,7 @@
 				B76F90D22244D11C0064A4D5 /* URL+ARCard.swift in Sources */,
 				B79F46DF22590CE40067E4EE /* MenuButtonViewController.swift in Sources */,
 				B76F90C12244B29C0064A4D5 /* UIImageView+ARCard.swift in Sources */,
+				B79F477C22592AD90067E4EE /* ProfileViewController.swift in Sources */,
 				B76F90C92244CA090064A4D5 /* UIViewController+ARCard.swift in Sources */,
 				B76F90BA2244AF830064A4D5 /* ProfileEditViewController.swift in Sources */,
 			);
