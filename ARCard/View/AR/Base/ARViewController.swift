@@ -12,6 +12,10 @@ import SceneKit
 
 class ARViewController: UIViewController {
     
+    private var menuButton: MenuButtonViewController {
+        return Storyboard.menuButton.instantiateViewController()
+    }
+    
     @IBOutlet private weak var sceneView: ARSCNView! {
         didSet {
             sceneView.showsStatistics = true
@@ -19,7 +23,7 @@ class ARViewController: UIViewController {
             sceneView.autoenablesDefaultLighting = true
         }
     }
-    @IBOutlet private weak var menuView: UIView!
+    @IBOutlet private weak var menuButtonView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +37,7 @@ class ARViewController: UIViewController {
     }
     
     private func setUp() {
-//        displayContentController(content: <#T##UIViewController#>, container: <#T##UIView#>)
+        displayContentController(content: menuButton, container: menuButtonView)
     }
     
     override var prefersStatusBarHidden: Bool {

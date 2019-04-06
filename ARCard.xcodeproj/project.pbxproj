@@ -50,7 +50,7 @@
 		B76F90D02244CD470064A4D5 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90CF2244CD470064A4D5 /* Storyboard.swift */; };
 		B76F90D22244D11C0064A4D5 /* URL+ARCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76F90D12244D11C0064A4D5 /* URL+ARCard.swift */; };
 		B79F46D922590B150067E4EE /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79F46D822590B150067E4EE /* Color.xcassets */; };
-		B79F46DD22590CD70067E4EE /* MenuButtonViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79F46DC22590CD70067E4EE /* MenuButtonViewController.storyboard */; };
+		B79F46DD22590CD70067E4EE /* MenuButton.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79F46DC22590CD70067E4EE /* MenuButton.storyboard */; };
 		B79F46DF22590CE40067E4EE /* MenuButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F46DE22590CE40067E4EE /* MenuButtonViewController.swift */; };
 		B79F46E222590D940067E4EE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79F46E122590D940067E4EE /* MenuViewController.swift */; };
 		B79F46E422590DA90067E4EE /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79F46E322590DA90067E4EE /* Menu.storyboard */; };
@@ -131,7 +131,7 @@
 		B76F90CF2244CD470064A4D5 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		B76F90D12244D11C0064A4D5 /* URL+ARCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+ARCard.swift"; sourceTree = "<group>"; };
 		B79F46D822590B150067E4EE /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
-		B79F46DC22590CD70067E4EE /* MenuButtonViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuButtonViewController.storyboard; sourceTree = "<group>"; };
+		B79F46DC22590CD70067E4EE /* MenuButton.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuButton.storyboard; sourceTree = "<group>"; };
 		B79F46DE22590CE40067E4EE /* MenuButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonViewController.swift; sourceTree = "<group>"; };
 		B79F46E122590D940067E4EE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B79F46E322590DA90067E4EE /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
@@ -397,7 +397,7 @@
 		B79F46DB22590CCD0067E4EE /* ARMenuButton */ = {
 			isa = PBXGroup;
 			children = (
-				B79F46DC22590CD70067E4EE /* MenuButtonViewController.storyboard */,
+				B79F46DC22590CD70067E4EE /* MenuButton.storyboard */,
 				B79F46DE22590CE40067E4EE /* MenuButtonViewController.swift */,
 			);
 			name = ARMenuButton;
@@ -576,7 +576,7 @@
 				B76F909A2243D42B0064A4D5 /* Regist.storyboard in Resources */,
 				B79F46E422590DA90067E4EE /* Menu.storyboard in Resources */,
 				B76F90AC2244A14C0064A4D5 /* Setting.storyboard in Resources */,
-				B79F46DD22590CD70067E4EE /* MenuButtonViewController.storyboard in Resources */,
+				B79F46DD22590CD70067E4EE /* MenuButton.storyboard in Resources */,
 				B76F90C52244C1390064A4D5 /* ProfileDescription.storyboard in Resources */,
 				B76F904D2243C4730064A4D5 /* LaunchScreen.storyboard in Resources */,
 				B79F46D922590B150067E4EE /* Color.xcassets in Resources */,
