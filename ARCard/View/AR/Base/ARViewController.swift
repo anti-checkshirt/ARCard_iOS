@@ -12,19 +12,28 @@ import SceneKit
 
 class ARViewController: UIViewController {
     
-    @IBOutlet private weak var sceneView: ARSCNView!
+    @IBOutlet private weak var sceneView: ARSCNView! {
+        didSet {
+            sceneView.showsStatistics = true
+            sceneView.scene = SCNScene()
+            sceneView.autoenablesDefaultLighting = true
+        }
+    }
+    @IBOutlet private weak var menuView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        sceneView.showsStatistics = true
-        sceneView.scene = SCNScene()
-        sceneView.autoenablesDefaultLighting = true
+        
+        setUp()
         
         let status = AVCaptureDevice.authorizationStatus(for: .video)
         if status == .denied {
             
         }
+    }
+    
+    private func setUp() {
+//        displayContentController(content: <#T##UIViewController#>, container: <#T##UIView#>)
     }
     
     override var prefersStatusBarHidden: Bool {

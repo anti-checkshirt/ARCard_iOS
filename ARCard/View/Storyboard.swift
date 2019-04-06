@@ -15,6 +15,9 @@ class Storyboards {
     fileprivate init() {}
     
     static let debug = Storyboard<UINavigationController>(name: "Debug")
+    static let ar = Storyboard<ARViewController>(name: "AR")
+    static let menu = Storyboard<MenuViewController>(name: "Menu")
+    static let menuButton = Storyboard<MenuButtonViewController>(name: "MenuButton")
 }
 
 // MARK: - Storyboard -
