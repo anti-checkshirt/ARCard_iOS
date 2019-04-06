@@ -8,12 +8,17 @@
 
 import UIKit
 import ARKit
+import RxSwift
 import SceneKit
 
 class ARViewController: UIViewController {
     
     private var menuButton: MenuButtonViewController {
         return Storyboard.menuButton.instantiateViewController()
+    }
+    
+    private var menuView: MenuViewController {
+        return Storyboard.menu.instantiateViewController()
     }
     
     @IBOutlet private weak var sceneView: ARSCNView! {
