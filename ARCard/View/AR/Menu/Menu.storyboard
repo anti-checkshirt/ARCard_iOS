@@ -106,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="289" y="-208"/>
         </scene>
-        <!--Profile-->
+        <!--ProfileEdit-->
         <scene sceneID="Avp-s7-eHT">
             <objects>
-                <viewControllerPlaceholder storyboardName="Profile" id="owh-Rc-mGI" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="ProfileEdit" id="owh-Rc-mGI" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="xiD-ea-Pz5"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cLy-Ie-PiT" userLabel="First Responder" sceneMemberID="firstResponder"/>
