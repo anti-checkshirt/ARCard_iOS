@@ -9,6 +9,10 @@
 import UIKit
 
 class MenuViewController: UIViewController {
+    
+    private var parentScreen: ARViewController {
+        return self.parent as! ARViewController
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
