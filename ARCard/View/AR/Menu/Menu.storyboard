@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="20" width="250" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vEq-WS-SMl">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="128"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="180"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BKE-M5-7Ua">
-                                                <rect key="frame" x="16" y="16" width="218" height="96"/>
+                                                <rect key="frame" x="16" y="16" width="218" height="148"/>
                                                 <subviews>
                                                     <button opaque="NO" alpha="0.87" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toP-KF-MhV">
                                                         <rect key="frame" x="0.0" y="0.0" width="218" height="44"/>
@@ -41,8 +41,22 @@
                                                             <segue destination="owh-Rc-mGI" kind="modal" id="Veq-dp-UNE"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" alpha="0.87" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW0-2P-mwL">
+                                                    <button opaque="NO" alpha="0.87000000476837158" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aug-kD-2Y8">
                                                         <rect key="frame" x="0.0" y="52" width="218" height="44"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="44" id="g4e-8S-BYP"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="15"/>
+                                                        <state key="normal" title="履歴">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="profileButtonDidTappend:" destination="JLh-js-VRZ" eventType="touchUpInside" id="FyV-6A-teW"/>
+                                                            <segue destination="cCg-Gr-uEA" kind="modal" id="yxC-c7-DSi"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" alpha="0.87" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW0-2P-mwL">
+                                                        <rect key="frame" x="0.0" y="104" width="218" height="44"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="44" id="tDn-Vh-dBV"/>
                                                         </constraints>
@@ -102,13 +116,23 @@
             </objects>
             <point key="canvasLocation" x="662" y="-458"/>
         </scene>
+        <!--History-->
+        <scene sceneID="bJF-hw-THw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="History" id="cCg-Gr-uEA" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="MJW-XP-YjC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IaD-nR-ISJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="654" y="-407"/>
+        </scene>
         <!--Info-->
         <scene sceneID="Ozf-ZH-Vlb">
             <objects>
                 <viewControllerPlaceholder storyboardName="Info" id="7HS-4Q-rWX" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O9u-VZ-iCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="672" y="-407"/>
+            <point key="canvasLocation" x="661" y="-363"/>
         </scene>
     </scenes>
 </document>

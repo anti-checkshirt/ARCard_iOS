@@ -18,6 +18,7 @@ class Storyboards {
     static let ar = Storyboard<ARViewController>(name: "AR")
     static let menu = Storyboard<MenuViewController>(name: "Menu")
     static let menuButton = Storyboard<MenuButtonViewController>(name: "MenuButton")
+    static let profile = Storyboard<ProfileViewController>(name: "Profile")
 }
 
 // MARK: - Storyboard -

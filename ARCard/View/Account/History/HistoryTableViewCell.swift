@@ -9,16 +9,13 @@
 import UIKit
 
 class HistoryTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    @IBOutlet private weak var iconImageView: IconImageView!
+    @IBOutlet private weak var nameLabel: UILabel!
+    @IBOutlet private weak var createAtLabel: UILabel!
+    @IBOutlet private weak var descriptionLabel: UILabel!
+    
+    func update() {
+        
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }
