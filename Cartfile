@@ -1,4 +1,5 @@
 github "ReactiveX/RxSwift"
+github "RxSwiftCommunity/RxKeyboard"
 github "SnapKit/SnapKit"
 github "Alamofire/Alamofire"
 github "adamwaite/Validator"
@@ -13,3 +14,4 @@ github "pkluz/PKHUD"
 # Basic
 github "kishikawakatsumi/KeychainAccess"
 github "radex/SwiftyUserDefaults"
+github "auth0/JWTDecode.swift"
