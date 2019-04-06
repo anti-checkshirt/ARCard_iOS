@@ -40,7 +40,10 @@ class ARViewController: UIViewController {
         
         openSubject.subscribe(onNext: { [weak self] in
             guard let width = self?.view.frame.width else { return }
-            self?.sceneViewRight.constant = -width * 0.6
+            UIView.animate(withDuration: 0.3, animations: {
+                self?.sceneViewRight.constant = -width * 0.6
+                self?.view.layoutIfNeeded()
+            })
         }).disposed(by: rx.disposeBag)
     }
     
