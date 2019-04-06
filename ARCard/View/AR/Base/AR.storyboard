@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mla-A0-Z7d">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </arscnView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8RL-Vq-9Xd">
                                 <rect key="frame" x="16" y="44" width="50" height="50"/>
@@ -30,20 +30,20 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e0K-Cd-CPR">
-                                <rect key="frame" x="-225" y="20" width="225" height="647"/>
+                                <rect key="frame" x="-225" y="0.0" width="225" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="8RL-Vq-9Xd" firstAttribute="top" secondItem="6jM-5S-ifo" secondAttribute="top" constant="24" id="55R-tq-bGC"/>
-                            <constraint firstItem="e0K-Cd-CPR" firstAttribute="top" secondItem="6jM-5S-ifo" secondAttribute="top" id="9eY-uN-DF9"/>
-                            <constraint firstItem="Mla-A0-Z7d" firstAttribute="top" secondItem="6jM-5S-ifo" secondAttribute="top" id="HLe-3c-dPK"/>
+                            <constraint firstItem="e0K-Cd-CPR" firstAttribute="top" secondItem="Mla-A0-Z7d" secondAttribute="top" id="9eY-uN-DF9"/>
+                            <constraint firstItem="Mla-A0-Z7d" firstAttribute="top" secondItem="gXM-fs-G2W" secondAttribute="top" id="HLe-3c-dPK"/>
                             <constraint firstItem="e0K-Cd-CPR" firstAttribute="width" secondItem="gXM-fs-G2W" secondAttribute="width" multiplier="0.6" id="L0t-yB-ihw"/>
-                            <constraint firstItem="6jM-5S-ifo" firstAttribute="bottom" secondItem="Mla-A0-Z7d" secondAttribute="bottom" id="LjS-FS-pbh"/>
+                            <constraint firstAttribute="bottom" secondItem="Mla-A0-Z7d" secondAttribute="bottom" id="LjS-FS-pbh"/>
                             <constraint firstItem="6jM-5S-ifo" firstAttribute="trailing" secondItem="Mla-A0-Z7d" secondAttribute="trailing" id="P7A-GA-ozQ"/>
                             <constraint firstItem="8RL-Vq-9Xd" firstAttribute="leading" secondItem="Mla-A0-Z7d" secondAttribute="leading" constant="16" id="U7v-Lo-pz9"/>
-                            <constraint firstItem="6jM-5S-ifo" firstAttribute="bottom" secondItem="e0K-Cd-CPR" secondAttribute="bottom" id="ZT8-w4-bwu"/>
+                            <constraint firstAttribute="bottom" secondItem="e0K-Cd-CPR" secondAttribute="bottom" id="ZT8-w4-bwu"/>
                             <constraint firstItem="Mla-A0-Z7d" firstAttribute="width" secondItem="gXM-fs-G2W" secondAttribute="width" id="eWP-x3-Vpo"/>
                             <constraint firstItem="Mla-A0-Z7d" firstAttribute="leading" secondItem="e0K-Cd-CPR" secondAttribute="trailing" id="nef-XT-TTh"/>
                         </constraints>

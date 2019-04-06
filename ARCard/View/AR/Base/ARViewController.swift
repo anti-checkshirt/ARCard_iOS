@@ -8,6 +8,7 @@
 
 import UIKit
 import ARKit
+import SnapKit
 import RxSwift
 import RxCocoa
 import SceneKit
@@ -27,6 +28,13 @@ class ARViewController: UIViewController {
     @IBOutlet private weak var menuButtonView: UIView!
     @IBOutlet private weak var menuView: UIView!
     @IBOutlet private weak var sceneViewRight: NSLayoutConstraint!
+    private let overlayView: UIButton = {
+        let view = UIButton()
+        view.isUserInteractionEnabled = false
+        view.backgroundColor = .black
+        view.layer.opacity = 0.0
+        return view
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +49,18 @@ class ARViewController: UIViewController {
         openSubject.subscribe(onNext: { [weak self] in
             guard let width = self?.view.frame.width else { return }
             UIView.animate(withDuration: 0.3, animations: {
+                self?.overlayView.layer.opacity = 0.7
+                self?.overlayView.isUserInteractionEnabled = true
                 self?.sceneViewRight.constant = -width * 0.6
+                self?.view.layoutIfNeeded()
+            })
+        }).disposed(by: rx.disposeBag)
+        
+        overlayView.rx.tap.asDriver().drive(onNext: { [weak self] in
+            UIView.animate(withDuration: 0.3, animations: {
+                self?.overlayView.layer.opacity = 0.0
+                self?.overlayView.isUserInteractionEnabled = false
+                self?.sceneViewRight.constant = 0
                 self?.view.layoutIfNeeded()
             })
         }).disposed(by: rx.disposeBag)
@@ -50,6 +69,11 @@ class ARViewController: UIViewController {
     private func setUp() {
         displayContentController(content: Storyboard.menuButton.instantiateViewController(), container: menuButtonView)
         displayContentController(content: Storyboard.menu.instantiateViewController(), container: menuView)
+        
+        sceneView.addSubview(overlayView)
+        overlayView.snp.makeConstraints { make in
+            make.top.left.right.bottom.equalToSuperview()
+        }
     }
     
     override var prefersStatusBarHidden: Bool {
