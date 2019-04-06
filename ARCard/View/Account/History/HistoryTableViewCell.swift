@@ -10,12 +10,12 @@ import UIKit
 
 class HistoryTableViewCell: UITableViewCell {
     
-    @IBOutlet private weak var iconImageView: IconImageView!
+    @IBOutlet weak var iconImageView: IconImageView!
     @IBOutlet private weak var nameLabel: UILabel!
     @IBOutlet private weak var createAtLabel: UILabel!
     @IBOutlet private weak var descriptionLabel: UILabel!
     
     func update() {
-        
+        iconImageView.setImage(with: "https://pbs.twimg.com/profile_images/1061520538386915329/ExNUPGbF_400x400.jpg")
     }
 }

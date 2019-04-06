@@ -64,6 +64,7 @@ class IconImageView: UIView {
         tapGestureRecognizer.rx.event.asDriver().drive(onNext: { [weak self] _ in
             self?.tapSubject.onNext(())
         }).disposed(by: rx.disposeBag)
+        addGestureRecognizer(tapGestureRecognizer)
     }
     
     func setImage(with imageString: String) {

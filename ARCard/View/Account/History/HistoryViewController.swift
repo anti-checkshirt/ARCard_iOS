@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PhotoSlider
 
 class HistoryViewController: UITableViewController {
 
@@ -29,6 +30,15 @@ class HistoryViewController: UITableViewController {
             fatalError("Invalid cell")
         }
         cell.update()
+        cell.iconImageView.tap.asDriver().drive(onNext: { [weak self] in
+            let url = URL(string: "https://pbs.twimg.com/profile_images/1061520538386915329/ExNUPGbF_400x400.jpg")!
+            let photoSlider = PhotoSlider.ViewController(imageURLs: [url])
+            photoSlider.modalPresentationStyle = .overCurrentContext
+            photoSlider.captionBackgroundViewColor = .clear
+            photoSlider.backgroundViewColor = .clear
+            photoSlider.visiblePageControl = false
+            self?.present(photoSlider, animated: true)
+        }).disposed(by: rx.disposeBag)
         return cell
     }
     

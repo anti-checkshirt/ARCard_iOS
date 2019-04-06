@@ -64,9 +64,13 @@ name: FontAwesome.swift, nameSpecified: , owner: thii, version: 1.6.0
 
 name: KeychainAccess, nameSpecified: , owner: kishikawakatsumi, version: v3.1.2
 
+name: Kingfisher, nameSpecified: , owner: onevcat, version: 5.3.1
+
 name: NSObject-Rx, nameSpecified: , owner: RxSwiftCommunity, version: 4.4.1
 
 name: Nuke, nameSpecified: , owner: kean, version: 7.5.2
+
+name: PhotoSlider, nameSpecified: , owner: nakajijapan, version: 1.0.1
 
 name: PKHUD, nameSpecified: , owner: pkluz, version: 5.2.1
 

@@ -8,6 +8,7 @@ github "thii/FontAwesome.swift"
 github "optonaut/ActiveLabel.swift"
 github "pkluz/PKHUD"
 github "SnapKit/SnapKit"
+github "nakajijapan/PhotoSlider"
 
 # Basic
 github "kishikawakatsumi/KeychainAccess"
