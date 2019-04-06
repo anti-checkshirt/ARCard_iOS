@@ -204,9 +204,6 @@
                                                 <constraint firstItem="xVq-EW-ptS" firstAttribute="leading" secondItem="Wax-gW-Oyk" secondAttribute="leadingMargin" id="S8S-gG-bJy"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="yqY-JW-hO1" kind="push" id="FuX-GB-496"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="50" id="IcW-D9-Fj2">
                                         <rect key="frame" x="0.0" y="486" width="375" height="50"/>
@@ -248,16 +245,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="plk-Sr-tdD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="71" y="72"/>
-        </scene>
-        <!--ProfileDescription-->
-        <scene sceneID="dNP-WU-pDC">
-            <objects>
-                <viewControllerPlaceholder storyboardName="ProfileDescription" id="yqY-JW-hO1" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="dfB-hM-atv"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mrH-UZ-Ixq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="593" y="71"/>
         </scene>
     </scenes>
 </document>

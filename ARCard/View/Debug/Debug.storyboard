@@ -94,50 +94,6 @@
                                             <segue destination="wqx-Eg-2Hf" kind="modal" id="SAP-ZL-SH4"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="HFF-3j-RBt">
-                                        <rect key="frame" x="0.0" y="299.5" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HFF-3j-RBt" id="ovg-wd-RuB">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" alpha="0.54000002145767212" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="プロフィール編集画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9VP-DO-zOM">
-                                                    <rect key="frame" x="16" y="14" width="160" height="16"/>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="16"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="9VP-DO-zOM" firstAttribute="leading" secondItem="ovg-wd-RuB" secondAttribute="leadingMargin" id="Ltu-Om-Keg"/>
-                                                <constraint firstItem="9VP-DO-zOM" firstAttribute="centerY" secondItem="ovg-wd-RuB" secondAttribute="centerY" id="Txc-dq-aar"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="Qcd-e8-Wk6" kind="modal" id="LFb-Ac-es6"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="JtY-iE-5rU">
-                                        <rect key="frame" x="0.0" y="343.5" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JtY-iE-5rU" id="tXo-tt-oeI">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" alpha="0.54000002145767212" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="紹介文編集画面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGB-hU-6wT">
-                                                    <rect key="frame" x="16" y="14" width="112" height="16"/>
-                                                    <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="16"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="hGB-hU-6wT" firstAttribute="leading" secondItem="tXo-tt-oeI" secondAttribute="leadingMargin" id="dLF-QR-FX4"/>
-                                                <constraint firstItem="hGB-hU-6wT" firstAttribute="centerY" secondItem="tXo-tt-oeI" secondAttribute="centerY" id="w8m-PS-7YW"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="Pp0-3f-DgI" kind="modal" id="SOy-Aw-yYh"/>
-                                        </connections>
-                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -175,22 +131,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vX5-g6-Zoj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1880" y="-218"/>
-        </scene>
-        <!--ProfileEdit-->
-        <scene sceneID="n5h-Tt-2Ik">
-            <objects>
-                <viewControllerPlaceholder storyboardName="ProfileEdit" id="Qcd-e8-Wk6" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xn0-Lf-jvv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1880" y="-180"/>
-        </scene>
-        <!--ProfileDescription-->
-        <scene sceneID="Uuz-WZ-d4f">
-            <objects>
-                <viewControllerPlaceholder storyboardName="ProfileDescription" id="Pp0-3f-DgI" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bgc-F6-E8Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1880" y="-143"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Vrn-gz-LjR">

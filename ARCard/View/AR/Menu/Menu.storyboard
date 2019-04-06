@@ -38,6 +38,7 @@
                                                         </state>
                                                         <connections>
                                                             <action selector="profileButtonDidTappend:" destination="JLh-js-VRZ" eventType="touchUpInside" id="Mi7-mG-Oqq"/>
+                                                            <segue destination="owh-Rc-mGI" kind="modal" id="Veq-dp-UNE"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" alpha="0.87" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW0-2P-mwL">
@@ -90,6 +91,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oWY-VY-xwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="289" y="-208"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="Avp-s7-eHT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="owh-Rc-mGI" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xiD-ea-Pz5"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cLy-Ie-PiT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="662" y="-458"/>
         </scene>
         <!--Info-->
         <scene sceneID="Ozf-ZH-Vlb">
