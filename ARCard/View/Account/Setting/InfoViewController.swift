@@ -15,4 +15,8 @@ class InfoViewController: UITableViewController {
         
         navigationItem.title = "アプリについて"
     }
+    
+    @IBAction private func backButtonDidTappend(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true)
+    }
 }

@@ -184,7 +184,14 @@
                             <outlet property="delegate" destination="Iof-4p-nhz" id="kvX-5F-CKH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="BF6-vH-4t0"/>
+                    <navigationItem key="navigationItem" id="BF6-vH-4t0">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="back" id="mgf-QY-2UU">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="backButtonDidTappend:" destination="Iof-4p-nhz" id="jlK-uG-RMP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="urm-zJ-89A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -209,4 +216,7 @@
             <point key="canvasLocation" x="148" y="-151.57421289355324"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back" width="50" height="50"/>
+    </resources>
 </document>
