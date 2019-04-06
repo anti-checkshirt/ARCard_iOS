@@ -64,11 +64,13 @@ name: FontAwesome.swift, nameSpecified: , owner: thii, version: 1.6.0
 
 name: KeychainAccess, nameSpecified: , owner: kishikawakatsumi, version: v3.1.2
 
+name: NSObject-Rx, nameSpecified: , owner: RxSwiftCommunity, version: 4.4.1
+
 name: Nuke, nameSpecified: , owner: kean, version: 7.5.2
 
 name: PKHUD, nameSpecified: , owner: pkluz, version: 5.2.1
 
-name: RxSwift, nameSpecified: , owner: ReactiveX, version: 4.4.2
+name: RxSwift, nameSpecified: , owner: ReactiveX, version: 4.5.0
 
 name: SnapKit, nameSpecified: , owner: SnapKit, version: 4.2.0
 

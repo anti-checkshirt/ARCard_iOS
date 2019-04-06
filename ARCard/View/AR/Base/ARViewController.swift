@@ -9,14 +9,19 @@
 import UIKit
 import ARKit
 import RxSwift
+import RxCocoa
 import SceneKit
+import NSObject_Rx
 
 class ARViewController: UIViewController {
     
+    private let hiddenSubject = PublishSubject<Bool>()
+    var isHidden: Driver<Bool> {
+        return hiddenSubject.asDriver(onErrorJustReturn: true)
+    }
     private var menuButton: MenuButtonViewController {
         return Storyboard.menuButton.instantiateViewController()
     }
-    
     private var menuView: MenuViewController {
         return Storyboard.menu.instantiateViewController()
     }
