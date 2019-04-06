@@ -234,6 +234,10 @@
 				B76F909B2243DA4D0064A4D5 /* Extension */,
 				B76F908D2243C9370064A4D5 /* Resources */,
 				B76F908F2243CA080064A4D5 /* View */,
+				B7CE3A58224749E500AD427D /* GoogleService-Info.plist */,
+				B76F904E2243C4730064A4D5 /* Info.plist */,
+				B76F904B2243C4730064A4D5 /* LaunchScreen.storyboard */,
+				B76F908B2243C8C60064A4D5 /* Settings.bundle */,
 			);
 			path = ARCard;
 			sourceTree = "<group>";
@@ -261,10 +265,6 @@
 			children = (
 				B76F90492243C4730064A4D5 /* Assets.xcassets */,
 				B79F46D822590B150067E4EE /* Color.xcassets */,
-				B7CE3A58224749E500AD427D /* GoogleService-Info.plist */,
-				B76F904E2243C4730064A4D5 /* Info.plist */,
-				B76F904B2243C4730064A4D5 /* LaunchScreen.storyboard */,
-				B76F908B2243C8C60064A4D5 /* Settings.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";

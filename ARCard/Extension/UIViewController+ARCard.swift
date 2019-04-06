@@ -14,4 +14,11 @@ extension UIViewController {
         let target = Storyboard.debug.instantiateViewController()
         self.present(target, animated: true)
     }
+    
+    func displayContentController(content: UIViewController, container: UIView) {
+        addChild(content)
+        content.view.frame = container.bounds
+        container.addSubview(content.view)
+        content.didMove(toParent: self)
+    }
 }
