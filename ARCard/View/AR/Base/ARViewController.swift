@@ -15,10 +15,7 @@ import NSObject_Rx
 
 class ARViewController: UIViewController {
     
-    private let hiddenSubject = PublishSubject<Bool>()
-    var isHidden: Driver<Bool> {
-        return hiddenSubject.asDriver(onErrorJustReturn: true)
-    }
+    let openSubject = PublishSubject<Void>()
     private var menuButton: MenuButtonViewController {
         return Storyboard.menuButton.instantiateViewController()
     }
